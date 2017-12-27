@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.articlelist {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: bisque;
+    border: solid 1px #000;
+}
+
+.editArea {
+    background-color: bisque;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.editTitle {
+    width: 100%;
+    height: 50px;
+}
+
+.editText {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: -5px;
+}
+
+.show {
+    width: 40%;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+.showTitle {
+    width: 100%;
+    height: 50px;
+    border: solid 1px #CCCCCC;
+}
+
+.showText {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    border: solid 1px #CCCCCC;
+}
+
+p {
+    font-size: 2em;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "dream-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "webpack": "webpack -d --watch"
+  },
+  "author": "lmy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.0",
+    "file-loader": "^0.11.1",
+    "img-loader": "^2.0.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.14.1",
+    "superagent": "^3.5.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "img-loader": "^2.0.0",
+    "marked": "^0.3.6",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.5",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.5.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.4",
+    "react-router": "^2.7.0",
+    "redux": "^3.6.0",
+    "superagent": "^3.5.2"
+  }
+}
