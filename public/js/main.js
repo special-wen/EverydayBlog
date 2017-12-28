@@ -12,6 +12,7 @@ import middleDeleteEdit from './middlewares/deleteEdit';
 
 import Hello from './containers/hello';
 import Edit from './containers/edit';
+import Login from './containers/login';
 
 
 const createMiddlewareStore = applyMiddleware(middleHello,middleEdit,middleDeleteEdit)(createStore);
@@ -22,5 +23,6 @@ render(<Provider store={store}>
     <Router history={browserHistory}>
         <Route path="/" component={Hello}/>
         <Route path='/edit' component={Edit}/>
+        <Route path='/login' component={Login}/>
     </Router>
 </Provider>, document.getElementById("content"));

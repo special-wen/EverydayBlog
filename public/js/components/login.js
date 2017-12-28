@@ -10,7 +10,7 @@ export default class Login extends React.Component {
             <div>
                 <p>用户名：<input type="text"/></p>
                 <p>密  码：<input type="password"/></p>
-                <button>登陆</button>
+                <button onClick={isLogin()}>登陆</button>
             </div>
         );
     }
