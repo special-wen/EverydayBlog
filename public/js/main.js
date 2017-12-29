@@ -6,6 +6,7 @@ import React from 'react';
 import reducer from './reducers/index';
 
 import middleHello from './middlewares/hello';
+// import middleLogin from './middlewares/login';
 import middleEdit from './middlewares/edit';
 import middleDeleteEdit from './middlewares/deleteEdit';
 
