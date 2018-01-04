@@ -5,16 +5,6 @@
 import {connect} from 'react-redux';
 import Edit from '../components/edit';
 
-// function mapStateToProps(state) {
-//     return{
-//         edit:state.edit.editInfo,
-//         deleteFlag:state.edit.deleteFlag,
-//         updateFlag:state.edit.updateFlag,
-//         list:state.edit.list
-//     }
-//
-// }
-
 const mapStateToProps = (state) => {
     return {
         list: state.edit.aList
