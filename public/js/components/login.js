@@ -17,18 +17,21 @@ export default class Login extends Component {
         this.props.onLogin({userName, userPassword});
     }
 
-    // componentWillReceiveProps(nextProps) {
-    //     if (nextProps.logSuccess === true && nextProps.logInfo === "success") {
-    //         // alert(nextProps.logInfo);
-    //         browserHistory.push('/hello');
-    //     } else if (nextProps.logSuccess === false && nextProps.logInfo === "password is not correct") {
-    //         alert("login failed because password is not correct");
-    //     } else if (nextProps.logSuccess === false && nextProps.logInfo === "user not exites") {
-    //         alert("user not exites");
-    //     }
-    //
-    //     this.props.onChangeLogSuccess();
-    // }
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.logSuccess === true) {
+        browserHistory.push('');
+        console.log("**********************************");
+        // alert(nextProps.logInfo);
+            console.log("aaaaaaaaaaaaaaaaaaaaaaaa");
+        }
+        else if (nextProps.logSuccess === false && nextProps.logInfo === "password is not correct") {
+            alert("login failed because password is not correct");
+        } else if (nextProps.logSuccess === false && nextProps.logInfo === "user not exites") {
+            alert("user not exites");
+        }
+
+        this.props.onChangeLogSuccess();
+    }
 
 
     render() {

@@ -6,7 +6,6 @@ const bodyParser = require('body-parser');
 
 const hello = require('./server/routers/hello');
 const login = require('./server/routers/login');
-const userList = require('./server/routers/userList')
 const addEdit = require('./server/routers/addEdit');
 const editList = require('./server/routers/editList');
 const editDelete = require('./server/routers/deleteEdit');
@@ -18,7 +17,6 @@ app.use(express.static(__dirname + '/public'));
 
 app.use("/", hello);
 app.use("/",login);
-app.use("/", userList);
 app.use('/',addEdit);
 app.use('/',editList);
 app.use('/',editDelete);
