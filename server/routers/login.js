@@ -28,7 +28,7 @@ router.post("/userInfo", (req, res) => {
                         console.log("查找失败"+err);
                         return err;
                     }
-                    else if (result[0].name === name && result[0].passward != password){
+                    else if (result[0].name === name && result[0].password != password){
                         res.json({isSuccess:false,logInfo:"password is not correct"});
                     }
                     else {
@@ -37,7 +37,7 @@ router.post("/userInfo", (req, res) => {
                     }
                 })
             }
-            else if (result[0].name === name && result[0].passward === password) {
+            else if (result[0].name === name && result[0].password === password) {
                 res.json({isSuccess: true, logInfo: "success"});
             }
 
