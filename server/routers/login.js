@@ -6,23 +6,30 @@ const express = require('express');
 
 const router = express.Router();
 
-let db = require('../dbs/connection')
-let userSQL = require('../dbs/userSql')
+let db = require('../dbs/connection');
+let userSQL = require('../dbs/userSql');
 
 
 router.post("/userInfo", (req, res) => {
     console.log(req);
-    var name = req.body.userName;
-    var password = req.body.userPassword;
+    let name = req.body.userName;
+    let password = req.body.userPassword;
     db.query(userSQL.logSql, [name, password], function (err, result) {
-        if (err) return err;
+        if (err) {
+            console.log("查找失败"+err);
+            return err;
+        }
         else {
+            console.log("长度是"+result.length);
+            // console.log(result[0].name,name,result[0].passward,password);
             if (result.length === 0) {
                 db.query(userSQL.findUser, name, function (err, result) {
-                    if (err) return err;
-                    else if (result.length != 0) {
-                        res.json({isSuccess: false, logInfo: "password is not correct"});
-
+                    if (err) {
+                        console.log("查找失败"+err);
+                        return err;
+                    }
+                    else if (result[0].name === name && result[0].passward != password){
+                        res.json({isSuccess:false,logInfo:"password is not correct"});
                     }
                     else {
                         res.json({isSuccess: false, logInfo: "user not exites"});
@@ -30,10 +37,10 @@ router.post("/userInfo", (req, res) => {
                     }
                 })
             }
-
-            else if (result[0].name === name && result[0].password === password) {
+            else if (result[0].name === name && result[0].passward === password) {
                 res.json({isSuccess: true, logInfo: "success"});
             }
+
         }
     })
 

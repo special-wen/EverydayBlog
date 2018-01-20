@@ -1,3 +1,4 @@
+
 /**
  * Created by lmy on 17-11-12.
  */
@@ -19,9 +20,9 @@ export default class Login extends Component {
 
     componentWillReceiveProps(nextProps) {
         if (nextProps.logSuccess === true) {
-        browserHistory.push('');
-        console.log("**********************************");
-        // alert(nextProps.logInfo);
+            browserHistory.push('');
+            console.log("**********************************");
+            //alert(nextProps.logInfo);
             console.log("aaaaaaaaaaaaaaaaaaaaaaaa");
         }
         else if (nextProps.logSuccess === false && nextProps.logInfo === "password is not correct") {

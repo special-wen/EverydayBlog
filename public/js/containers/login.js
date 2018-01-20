@@ -13,7 +13,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         onLogin: (userInfo) => {
-             //console.log(userInfo);
+            //console.log(userInfo);
             dispatch({type: 'LOGIN', data: userInfo})
         },
         onChangeLogSuccess: () => {

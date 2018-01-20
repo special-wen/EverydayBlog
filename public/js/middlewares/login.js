@@ -11,10 +11,11 @@ export default store => next => action => {
                     // console.log("+++++++++++++++++++");
                     // return;
                 }
-                next({type: "LOGIN_SUCCESS", isSuccess: true, logInfo: action.data});
+                //
+                next({type: "LOGIN_SUCCESS", isSuccess: res.body.isSuccess, logInfo: res.body.logInfo});
+                //
             });
     }
     else
         next(action);
 };
-
