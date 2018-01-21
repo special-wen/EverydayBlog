@@ -3,7 +3,7 @@
  */
 
 let UserSQL = {
-    logSql:'select * from user where name = ? and passward = ?',
+    logSql:'select * from user where name = ? and password = ?',
 
     insert: 'insert  user(id,name,password,role) values (null,?,?,?)',
     queryAll: 'select * from user',

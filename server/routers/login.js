@@ -21,7 +21,6 @@ router.post("/userInfo", (req, res) => {
         }
         else {
             console.log("长度是"+result.length);
-            // console.log(result[0].name,name,result[0].passward,password);
             if (result.length === 0) {
                 db.query(userSQL.findUser, name, function (err, result) {
                     if (err) {
