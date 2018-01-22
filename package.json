@@ -32,8 +32,10 @@
     "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
     "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
     "cors": "^2.8.3",
     "express": "^4.15.2",
+    "express-session": "^1.15.6",
     "img-loader": "^2.0.0",
     "marked": "^0.3.6",
     "mongodb": "^2.2.25",
@@ -45,6 +47,7 @@
     "react-redux": "^5.0.4",
     "react-router": "^2.7.0",
     "redux": "^3.6.0",
+    "session-file-store": "^1.2.0",
     "superagent": "^3.5.2"
   }
 }

@@ -1,6 +1,6 @@
 
 /**
- * Created by lmy on 17-11-12.
+ * Created by zxw on 17-11-12.
  */
 import React, {Component} from 'react';
 import {browserHistory} from 'react-router';

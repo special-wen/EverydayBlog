@@ -29,6 +29,7 @@ router.post("/userInfo", (req, res) => {
                     }
                     else if (result[0].name === name && result[0].password != password){
                         res.json({isSuccess:false,logInfo:"password is not correct"});
+
                     }
                     else {
                         res.json({isSuccess: false, logInfo: "user not exites"});
@@ -37,6 +38,11 @@ router.post("/userInfo", (req, res) => {
                 })
             }
             else if (result[0].name === name && result[0].password === password) {
+                // let data = {};
+                // data.userName = result[0].name;
+                // data.userPassword = result[0].password;
+                // req.session = data;
+                // req.session.userInfo = data;
                 res.json({isSuccess: true, logInfo: "success"});
             }
 
