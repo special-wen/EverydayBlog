@@ -20,6 +20,7 @@ router.post('/signin', (req, res) => {
                 res.json({states:'SUCCESS',type:'0'});//普通用户登录
             }else　if(result[0].password === password && result[0].type === '1'){
                 console.log('管理员登录！');
+                req.session.user = result[0];
                 res.json({states:'SUCCESS',type:'1'});//管理员登录
             }else{
                 console.log('用户名或密码不正确！');

@@ -2,363 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30243d7-c9be-4665-ad87-b2f99967dc68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/action/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/components/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/components/editChange.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0652fa7acd36381900cc6105e74108badcecefac.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0a79e9da184cc3162bcabf8f3e4a671f3d186598.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0bcf28a8c81284c6fd31a52b1e3aeb4a82f19431.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0cbf8221167d5595e5f26004f0dd2770006a3dc4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0e06cdbbcf2657081e79fc5e376cb5ad5ac9bb25.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0e8281c088f78f63fd6e5f40cc615940a1d89fde.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0ef3b1e2874a200466ee97b4617c8c6366979097.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0f05ce345a41fced4d33287505dde1c0a508b559.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/121f8c882cdc6cf37b89a0243c72abd5b621bda3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/12ead4dfa61bd916e24a7c7d645ab597c546a6ac.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/13c3b79f61b93b4fca6d4882e514aa5044a23e0b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1450c650c45bcf97fc187788626e07012dc2c320.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/168316b2b959e376b67554ef655b443269063960.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/193ad73c56ca3e19d646bcb1901c3b0fa0268f2d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/19696a2b2bac7257d1aa356e4d4bac320190ff7b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b9181f84013e08b194e9865ddd060cc9767025e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1ca6220004c6bba4f199fb5fc7a24322c93ee839.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1f03f44610107ce3c2ed4ce2277df05b4dd61f55.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1f728ffb5901293546675cf4a3cfda8e150adc6e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2220cbd628dedbe98c7de14a3dfb2d5e4928353e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/233e17fa3a60db5764667ae83dd8ccd08e3cc5b4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/25d99775c3d58b368d9741eadc294fa9a295a335.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2a0abb3e8b4fb36a92221b4ad6627c47df93443f.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2b1b6c355780fd9d1a8c87b33ea7a3cd6dca7cae.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2b45de1f68433c13132c4b965fd46035bd897f05.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2bf46b1eabe8059bed35ca31abf9e33e8adfafab.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2e41d0240a14c183ebb0aebd41bf1bcc0c7142fb.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/32c580290224b0ee805005af85374e4300e2c235.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/32e2a34c40d0dee399d41274e1cf6691772acce4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/35f17c14a48bf35f69693527925638e0e6f3649a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/370622461c0c2347dd01ad1748fcdb7a09c75189.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3974ed2fe6d6001fabf2f5a92b2c9bc11f93a55d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/39dd4615efb068ecf2185c0f7cec62df2970de0c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3c3bf6d71d8e5dcba8fc14c6d6910353442aa389.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3c6def10fb47b6005037f203ffc0b88f449fba0f.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3d1d4b652f7213348b750736ee0695f071e2e6eb.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/420ae783ec37db35512fe1a998bcf59b9b90ca57.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/43c1727c0cd8644ea107b665680c850960910c13.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/49629d57c919f193c4ce833ddadc97ef28344f08.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4e17ddfa0dd633ef9ceff3b87d8fa7478507cc91.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4f008a30ce62745d951516fbeddbb49c3a5b3a99.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/51030874650c17c2cc3ae4a39cdf9a9ff1bfa2cd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/531c9d85e3e7ee596ec0380aa1164953dbcef2b7.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5388a09f1df83b6dc9d93908aadd7caf62e06f0b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/53da46691b038ddf5d5994d46f039fb6d00a502d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5656c226bc617c13f5f313121997ec98ca02a8cf.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/573fd77dec79bd697d6a3d286b9351637bb0f8fe.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/574aa665928a2ba9df6a038616c7c11cb8a49fb9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59360e1ecc648f3bfb316e053c4b74f6fb418864.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59b75012ca7fbfc48ff2811c0fb68e089c1d3558.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d38e335c7ae659f60bf328b4c2664d1c425f1a5.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d4f38e7d5ba87c4f8c1889846af2d41bf7281e0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5f4ff1a9874452cf88780e5a6939a18ddcec354a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/60bd0b2882b9023dcdffaf049638ee1a215cb0e9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/668baa233c6237e5309b00292d9b0ff2afde9709.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6ad4bd305987424ba0d71fba70c03dd99592cbad.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6b904a514c0297469880b2713cc6168732cfa6e3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/73c571d10908a99d1b1ce65e2da46bda72cc8c18.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7433db6e157148d7c643b80aba9ed6431ca887ca.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/74479c4956a1967c950599990f0c19a19ebcf159.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/74f1e936d0425a7d53be04b3da17b43f3bf127ba.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/776e9b117fbd4f756d9cd23789541dfe5496d6ab.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/79c4207f03b40f7aa8f93b1533aae50a01ce5999.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/79eebcbc71168f95c9427c718138fe38e746032e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/79f6101092ac6058273a8f7bcf18b3e8702ed195.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7c5d2f4bbff5c73b41401512a965aeb6eaf51dba.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8324b5914b825bb316bdb384a7868a6467f90bc7.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/871553750047dc8a66587763ce4517ecf75b1bda.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/87594edc2909405464d988760a185474b48f3378.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8c3261ae2f85113dd63c684037645cdc4786e99e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/955278eb4c7e7647cfce88a91df514e9fb76d07c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/95d9af83d40f7cf7b1dae2a948a49ad369e89d99.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/994a58d56364e19c40e4d4948b0ab9815e8d08d8.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/99b859f1b8b8b9b4a809c16565a41fb7eabf584d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9a5ed6b0b65488988bb120da72f08a40bdc6d319.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9c710c8fec6d7aeea228825083f0fb6bf8a7f10d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a47b10330f3a5de2b65c1c9ba3f9aa218f60526a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a5ae06da2adb296e550510ac5097d771069b82e4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a89100aed06d854be6fb70cee19fafe10d49a8e3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ac580f1068326c8fe85de9066561a4d516ef3e7d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b399097f8d04c543abee942107416838482106af.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b3afa768999b9235ea8e63f8217be82b8df4fbb0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b5aff9fe9b9b3c4da32fb897ab6e9c7237ce274c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b63a5298c5d9350acbe98f661ace796ec304ecc3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b700d27fd389938f63474e518fea4bd0deb827c0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b70c0cc04501f40120c6a98d0eedf86cfe5d5935.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b7b9a221f8d9208c58831a3b2001f19fe2d308cd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b842f8c8ac33689bffd2ef7f984d4a2d28b7e981.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ba71e3ea6342256cb9fd458dbfb601d26a391f59.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd755ccdae0e7e74fed6f58b5dfb67a80381ef66.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bfbfc8382ccd95c1a2bd37f7543d0fc8cbf8b1d2.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c376d5cf74d1c74fd0fd829c7f163320fb4ea340.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c5611865faa23048edd1163201339ac7131e74f6.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c759b4967e45fd67a0998da60b9cc0d750f27227.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c923a03d27375b5967c214b98b22fed165ef4847.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c9f76960e09b82a39143c14ed1d212e04609749c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c9fd7b13902f1563757012856e3bfbe28f4b99ef.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ca9844d4dd1e78355aa2994bac67191a9e3266d7.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cb77bcf5d58056b763dac9ff27d101b1b9c9232c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cdb09cc0e1149c50d8409345971b2f8f1331aeb2.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cedcdecc63de31df7272ac82e791a380e6b39bfd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d19145f92597f526f973c732c86a9be86f009ef8.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d2a3a64394a4aeaf8afa4b3359e14f8d30cabdc4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d601de30c51227b48bc0d37a1eff9bd204fec8cc.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d70a29dbd5408377de79587fd38591188fbc4734.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d778403408da2c7af9cf3861fbca33ea394fcae5.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d7b17a9e6add973714e2b85d9d785e4b3e1cc75c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d7b7c3a12f4fee92ae0aab6cc0e97d1889be9c3f.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d901c5bcb11bd3e518076a28a360c0cf894e7506.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d9e1c55b207bcc3d0b0c34dd7e847f2a4ab70078.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/da8d33085ba5c35f2942e84fdc99d7f21d0abcfb.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/db115281023d91f7defab02930b58a576e635f32.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dc93c72195646883252a4c6a5acc30b581b182b3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/de5333f34899b688a98c201b7684fa493bfe75e4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e367b02024a27f2bd97eb60e7be1232b1a4548c4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e59070df67948ec107c6864dbd8275abf72dd928.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e7ee52a94097d891cc74317a301493c55ca3942d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e98f5ce74b495601d1a4bb83597757a4a5935593.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ea076fdf22e20f16846bf12d6362637efcd27b44.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ea4d94b9a3a9fbbb11802f05731d265d115f4ef1.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/efb0f603788fcb08c5b13c4b531541c053b2b4f9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f192167331d07c6b07a07d69684eb2dc9d2b9cde.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f24f6036df97263ed83485731f592aedb40a6011.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f342f9e00e38060153687dcd0a9f23059917cc4c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f8853276c4e2653c6929e6f872a12c2e1e1401e4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fba3c4b187f7fab97f24a314e52ec454cbd079e4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc018f384b51a0b9e8a9c1d6d7246e34127ff93a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ffc86a9023995be12a5373e50a449e7984e5aae1.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/MIT-License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/README_CN.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/lib/bagpipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bagpipe/test/bagpipe.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/src/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/src/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/node_modules/debug/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookie-session/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookies/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookies/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookies/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookies/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cookies/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16_ccitt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16_kermit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16_modbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16_xmodem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc24.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc32.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc8_1wire.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/create_buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/define_crc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/crc/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/session/cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/session/memory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/session/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express-session/session/store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/fs-read-write.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson-sync.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-file-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/ncp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/fs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move-sync/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/path-exists/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/rimraf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsonfile/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsonfile/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsonfile/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsonfile/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsonfile/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/keygrip/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/on-headers/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/on-headers/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/on-headers/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/on-headers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/on-headers/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/random-bytes/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/random-bytes/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/random-bytes/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/random-bytes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/random-bytes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/equation.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/example/dns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/example/stop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/lib/retry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/lib/retry_operation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-forever.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-retry-operation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-retry-wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-timeouts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/retry/test/runner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/lib/reap-worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/lib/session-file-helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/lib/session-file-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/node_modules/write-file-atomic/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/node_modules/write-file-atomic/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/node_modules/write-file-atomic/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/node_modules/write-file-atomic/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session-file-store/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/lib/async-map-ordered.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/lib/async-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/lib/bind-actor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/lib/chain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/lib/slide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/slide/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uid-safe/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uid-safe/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uid-safe/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uid-safe/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uid-safe/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/universalify/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/universalify/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/universalify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/universalify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/components/edit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/components/sdss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/containers/edit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/reducers/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/dbs/listSql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/dbs/userSql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routers/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/laboratoryProject-.iml" afterPath="$PROJECT_DIR$/.idea/laboratoryProject-.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/index.js" afterPath="$PROJECT_DIR$/public/dist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/vendor.js" afterPath="$PROJECT_DIR$/public/dist/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/hello.js" afterPath="$PROJECT_DIR$/public/js/components/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/login.js" afterPath="$PROJECT_DIR$/public/js/components/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/hello.js" afterPath="$PROJECT_DIR$/public/js/containers/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/login.js" afterPath="$PROJECT_DIR$/public/js/containers/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/edit.js" afterPath="$PROJECT_DIR$/public/js/middlewares/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/hello.js" afterPath="$PROJECT_DIR$/public/js/middlewares/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/login.js" afterPath="$PROJECT_DIR$/public/js/middlewares/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reducers/edit.js" afterPath="$PROJECT_DIR$/public/js/reducers/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reducers/hello.js" afterPath="$PROJECT_DIR$/public/js/reducers/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reducers/index.js" afterPath="$PROJECT_DIR$/public/js/reducers/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/dbs/editSQL.js" afterPath="$PROJECT_DIR$/server/dbs/editSQL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/addEdit.js" afterPath="$PROJECT_DIR$/server/routers/addEdit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/deleteEdit.js" afterPath="$PROJECT_DIR$/server/routers/deleteEdit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/editList.js" afterPath="$PROJECT_DIR$/server/routers/editList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/hello.js" afterPath="$PROJECT_DIR$/server/routers/hello.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/dbs/connection.js" afterPath="$PROJECT_DIR$/server/dbs/connection.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/login.js" afterPath="$PROJECT_DIR$/server/routers/login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -373,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/action/index.js">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/routers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="266">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -386,82 +34,19 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/dbs/connection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="171">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
-              <folding>
-                <marker date="1516960897961" expanded="true" signature="659:1433" ph="{...}" />
-                <marker date="1516960897961" expanded="true" signature="724:1427" ph="&lt;div/&gt;" />
-                <marker date="1516960897961" expanded="true" signature="742:1412" ph="&lt;table/&gt;" />
-                <marker date="1516960897961" expanded="true" signature="777:1391" ph="&lt;tbody/&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editChange.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/components/editChange.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#42#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/components/hello.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <marker date="1516960897961" expanded="true" signature="114:303" ph="{...}" />
-                <marker date="1516960897961" expanded="true" signature="129:301" ph="{...}" />
-                <marker date="1516960897961" expanded="true" signature="197:295" ph="&lt;div/&gt;" />
-                <marker date="1516960897961" expanded="true" signature="322:411" ph="{&quot;hello&quot;: PropTypes.string.isRequired...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -475,7 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/js/action/index.js" />
+        <option value="$PROJECT_DIR$/server/routers/login.js" />
         <option value="$PROJECT_DIR$/server/dbs/connection.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -490,7 +77,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -535,6 +123,12 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="dbs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EverydayBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EverydayBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -577,25 +171,24 @@
       <option name="presentableId" value="Default" />
       <updated>1516961347604</updated>
       <workItem from="1516961350265" duration="229000" />
-      <workItem from="1516964152084" duration="319000" />
+      <workItem from="1516964152084" duration="3230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548000" />
+    <option name="totallyTimeSpent" value="3459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="683" y="27" width="683" height="741" extended-state="4" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17883755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4157815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4667774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -630,12 +223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
-          <folding>
-            <marker date="1516960897961" expanded="true" signature="659:1433" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="724:1427" ph="&lt;div/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="742:1412" ph="&lt;table/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="777:1391" ph="&lt;tbody/&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,8 +232,8 @@
         <state relative-caret-position="19">
           <caret line="3" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="2" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#68#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#42#68#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,12 +242,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1516960897961" expanded="true" signature="114:303" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="129:301" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="197:295" ph="&lt;div/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="322:411" ph="{&quot;hello&quot;: PropTypes.string.isRequired...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,52 +254,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
-          <folding>
-            <marker date="1516960897961" expanded="true" signature="659:1433" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="724:1427" ph="&lt;div/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="742:1412" ph="&lt;table/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="777:1391" ph="&lt;tbody/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/editChange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1516960897961" expanded="true" signature="114:303" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="129:301" ph="{...}" />
-            <marker date="1516960897961" expanded="true" signature="197:295" ph="&lt;div/&gt;" />
-            <marker date="1516960897961" expanded="true" signature="322:411" ph="{&quot;hello&quot;: PropTypes.string.isRequired...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/components/helloChange.js" />
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-223">
@@ -733,10 +271,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/editChange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#42#68#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dbs/editSQL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/dbs/connection.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding />
         </state>
       </provider>
