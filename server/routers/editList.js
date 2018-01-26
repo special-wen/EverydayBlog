@@ -11,15 +11,11 @@ let editSQL = require('../dbs/editSQL');
 
 
 router.post('/editList', (req, res) => {
-    let allList = [];
     db.query(editSQL.getMyAllTitle, (err, result) => {
         if (err) {
             console.log(err);
         }
-        result.map((list) =>{
-            allList.push(list);
-        });
-        res.json(allList);
+        res.json(result);
     });
 });
 module.exports = router;

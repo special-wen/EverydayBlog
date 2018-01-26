@@ -1,0 +1,13 @@
+table {
+    border-collapse:collapse;
+    margin: 100px auto;
+}
+th,td {
+    border:1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+tr:hover {
+    background-color: darkgray;
+}

@@ -11,11 +11,17 @@ let editSQL = require('../dbs/editSQL');
 
 
 router.post('/delEdit', (req, res) => {
-    db.query(editSQL.delete, req.body.id, function (err) {
+    db.query(editSQL.delete, req.body.id, function (err,result) {
         if (err){
             console.log(err);
-        } //return res.status(500).json({tip: err.message});
-        res.json({tip: "success"});
+        }
+        console.log(result);
+    });
+    db.query(editSQL.getMyAllTitle, (err, result) => {
+        if (err) {
+            console.log(err);
+        }
+        res.json(result);
     });
 });
 

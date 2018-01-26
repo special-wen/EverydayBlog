@@ -1,60 +1,27 @@
-
 /**
- * Created by zxw on 17-11-12.
+ * Created by lmy on 17-11-12.
  */
-import React, {Component} from 'react';
-import {browserHistory} from 'react-router';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class Login extends Component {
-
-    login() {
-        const userName = this.refs.userName.value;
-        const userPassword = this.refs.userPassword.value;
-        console.log(userName+userPassword);
-        if (!userName || !userPassword) {
-            alert("The name or password connot be empty");
-            return;
-        }
-        this.props.onLogin({userName, userPassword});
-    }
-
-    componentWillReceiveProps(nextProps) {
-        if (nextProps.logSuccess === true) {
-            browserHistory.push('');
-            console.log("**********************************");
-            //alert(nextProps.logInfo);
-            console.log("aaaaaaaaaaaaaaaaaaaaaaaa");
-        }
-        else if (nextProps.logSuccess === false && nextProps.logInfo === "password is not correct") {
-            alert("login failed because password is not correct");
-        } else if (nextProps.logSuccess === false && nextProps.logInfo === "user not exites") {
-            alert("user not exites");
-        }
-
-        this.props.onChangeLogSuccess();
-    }
-
+export default class Login extends React.Component {
 
     render() {
-        return <div className="row">
-
-            <div className="col-md-5">
-                <h2>登 录</h2>
-                <hr/>
-                <div className="input-group account">
-                    <label className="input-group-addon ">账号</label>
-                    <input type="text" id="account" ref="userName" className="form-control"/>
-                </div>
-
-                <div className="input-group account">
-                    <lable className="input-group-addon">密码</lable>
-                    <input type="password" id="password" ref="userPassword" className="form-control"/>
-                </div>
-
-                <button className='btn btn-primary  logButton' onClick={this.login.bind(this)}>登录</button>
-
+        const {onClickSignIn} = this.props;
+        return (
+            <div>
+                <form>
+                    <label htmlFor="name">用户名：</label>
+                    <input type="text" name="name" id="name"/>
+                    <br />
+                    <label htmlFor="password">密码：</label>
+                    <input type="password" name="password" id="password" />
+                    <input type="button" value="登录" onClick={onClickSignIn} />
+                </form>
             </div>
-        </div>;
-
+        );
     }
-}
+};
+Login.propTypes = {
+    onClickSignIn: PropTypes.func.isRequired
+};
