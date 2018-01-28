@@ -33,9 +33,9 @@ app.use(session({
     store:new Store(db_config)
 }));
 app.use(function(req, res, next) {
-    const _user = req.session.user;
+    const _user = req.session.signInInfo;
     if(_user){
-        app.locals.user = _user;//传入当前变量到界面
+        app.locals.signInInfo = _user;//传入当前变量到界面
     }
 
     next();
@@ -58,5 +58,6 @@ app.get("*", function (req, res) {
 
 app.listen(3000, () => {
     console.log('server start');
+
 });
 

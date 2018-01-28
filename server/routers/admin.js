@@ -10,6 +10,7 @@ let signSQL = require('../dbs/signSQL');
 
 
 router.post('/userList', (req, res) => {
+    console.log("session is:"+req.session.signInInfo.headPath);
     db.query(signSQL.myAllStudent, (err, result) => {
         if (err) {
             console.log(err);

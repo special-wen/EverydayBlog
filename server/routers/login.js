@@ -23,6 +23,8 @@ router.post('/signin', (req, res) => {
                 data.username = name;
                 data.userType = result[0].type;
                 data.password = result[0].password;
+                data.userId = result[0].user_id;
+                data.headPath = result[0].head_path;
                 req.session.signInInfo = data;
                 // responseClient(res,200,0,'')
                 console.log('管理员登录！');
@@ -35,13 +37,4 @@ router.post('/signin', (req, res) => {
     })
 });
 
-// router.get('/signin', (req,res)=>{
-//     if (req.session.signInInfo){
-//         if (req.session.signInInfo.userType == 1){
-//             res.json({states:'SUCCESS',type:'1'});//管理员登录
-//         }else {
-//             res.json({states:'SUCCESS',type:'0'});//普通用户登录
-//         }
-//     }
-// });
 module.exports = router;
