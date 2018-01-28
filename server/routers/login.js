@@ -19,8 +19,13 @@ router.post('/signin', (req, res) => {
                 console.log('用户名密码匹配成功！');
                 res.json({states:'SUCCESS',type:'0'});//普通用户登录
             }else　if(result[0].password === password && result[0].type === '1'){
+                let data = {};
+                data.username = name;
+                data.userType = result[0].type;
+                data.password = result[0].password;
+                req.session.signInInfo = data;
+                // responseClient(res,200,0,'')
                 console.log('管理员登录！');
-                req.session.user = result[0];
                 res.json({states:'SUCCESS',type:'1'});//管理员登录
             }else{
                 console.log('用户名或密码不正确！');
@@ -30,4 +35,13 @@ router.post('/signin', (req, res) => {
     })
 });
 
+router.get('/signin', (req,res)=>{
+    if (req.session.signInInfo){
+        if (req.session.signInInfo.userType == 1){
+            res.json({states:'SUCCESS',type:'1'});//管理员登录
+        }else {
+            res.json({states:'SUCCESS',type:'0'});//普通用户登录
+        }
+    }
+});
 module.exports = router;
