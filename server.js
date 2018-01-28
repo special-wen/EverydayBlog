@@ -14,19 +14,32 @@ const signIn = require('./server/routers/login');
 const Admin = require('./server/routers/admin');
 const Store = require('express-mysql-session');
 const app =  express();
+const db_config = {
+    host: 'localhost',
+    user: 'root',
+    password: "zxwzxwzxw",
+    database: 'dailySummary',
+    port: 3306
 
+};
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/public'));
 
-app.use(cookieParser('express_react_cookie'));
+app.use(cookieParser());
 app.use(session({
-    secret:'express_react_cookie',
-    resave:true,
-    saveUninitialized:true,
-    cookie:{maxAge:60*1000*30}
+    secret:'react',
+    store:new Store(db_config)
 }));
+app.use(function(req, res, next) {
+    const _user = req.session.user;
+    if(_user){
+        app.locals.user = _user;//传入当前变量到界面
+    }
+
+    next();
+})
 
 //所要处理的静态路由必须引进server服务页面
 app.use('/', hello);
