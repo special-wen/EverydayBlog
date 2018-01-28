@@ -35,13 +35,13 @@ router.post('/signin', (req, res) => {
     })
 });
 
-router.get('/signin', (req,res)=>{
-    if (req.session.signInInfo){
-        if (req.session.signInInfo.userType == 1){
-            res.json({states:'SUCCESS',type:'1'});//管理员登录
-        }else {
-            res.json({states:'SUCCESS',type:'0'});//普通用户登录
-        }
-    }
-});
+// router.get('/signin', (req,res)=>{
+//     if (req.session.signInInfo){
+//         if (req.session.signInInfo.userType == 1){
+//             res.json({states:'SUCCESS',type:'1'});//管理员登录
+//         }else {
+//             res.json({states:'SUCCESS',type:'0'});//普通用户登录
+//         }
+//     }
+// });
 module.exports = router;
