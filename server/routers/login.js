@@ -17,6 +17,13 @@ router.post('/signin', (req, res) => {
                 console.log('用户不存在，请核对用户是否存在');
             }else if(result[0].password === password && result[0].type === '0'){
                 console.log('用户名密码匹配成功！');
+                let data = {};
+                data.username = name;
+                data.userType = result[0].type;
+                data.password = result[0].password;
+                data.userId = result[0].user_id;
+                data.headPath = result[0].head_path;
+                req.session.signInInfo = data;
                 res.json({states:'SUCCESS',type:'0'});//普通用户登录
             }else　if(result[0].password === password && result[0].type === '1'){
                 let data = {};
