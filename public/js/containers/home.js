@@ -8,11 +8,11 @@ import Home from '../components/home';
 const mapStateProps = (state)=>{
     console.log(state);
     return{
-        userList:state.editList.aList
+        essayList:state.editList.aList
     }
 };
 const mapDispathchToProps = (dispatch) =>({
-    allUserList: () => {
+    allEssayList: () => {
         dispatch({type:'ALL_ESSAY_LIST'})
     },
     onDetial: () => {

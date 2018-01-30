@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function ItemUserList(props) {
+function ItemEssayList(props) {
     return <tr onClick={props.onDetial}>
         <td>{props.name}</td>
         <td>{props.title}</td>
@@ -14,10 +14,10 @@ function ItemUserList(props) {
 
 export default class Home extends React.Component{
     componentDidMount(){
-        this.props.allUserList();
+        this.props.allEssayList();
     }
     render(){
-        const {onDetial,userList} = this.props;
+        const {onDetial,essayList} = this.props;
         return <div>
             <table id="table">
                 <tbody>
@@ -26,8 +26,8 @@ export default class Home extends React.Component{
                     <th>文章标题</th>
                     <th>文章内容</th>
                 </tr>
-                {userList.map((val)=>
-                    <ItemUserList key={val.stu_id} onDetial={onDetial} name={val.stu_name} title={ val.title} text={val.text}/>
+                {essayList.map((val)=>
+                    <ItemEssayList key={val.stu_id} onDetial={onDetial} name={val.stu_name} title={ val.title} text={val.text}/>
                 )}
                 </tbody>
             </table>
@@ -36,7 +36,7 @@ export default class Home extends React.Component{
 }
 Home.propTypes = {
     onDetial:PropTypes.func.isRequired,
-    userList:PropTypes.arrayOf(PropTypes.shape({
+    essayList:PropTypes.arrayOf(PropTypes.shape({
         stu_id:PropTypes.number.isRequired,
         stu_name: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
