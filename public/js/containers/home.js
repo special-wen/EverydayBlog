@@ -7,11 +7,13 @@ import Home from '../components/home';
 
 const mapStateProps = (state)=>{
     console.log(state);
-    return{
-
-    }
+    return {
+        userList: state.editList.aList
+    };
 };
 const mapDispathchToProps = (dispatch) =>({
-
+    allUserList: () => {
+        dispatch({type:'ALL_USER_LIST'})
+    }
 });
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateProps,mapDispathchToProps)(Home);

@@ -17,7 +17,7 @@ export default store => next => action => {
                         window.location.href = '/';
                     }else if(res.text === '{"states":"SUCCESS","type":"1"}'){
                         alert("管理员登录成功");
-                        window.location.href = '/admin';
+                        window.location.href = '/home';
                     }else{
                         alert("用户名或密码错误");
                     }

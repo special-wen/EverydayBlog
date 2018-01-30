@@ -27,7 +27,7 @@ export default class Home extends React.Component{
                     <th>文章内容</th>
                 </tr>
                 {userList.map((val)=>
-                    <ItemUserList key={val.stu_id} onDetial={onDetial} name={val.stu_name} title={ val.title} text={val.text}/>
+                    <ItemUserList key={val.stu_id} onDetail={onDetail} name={val.stu_name} title={ val.title} text={val.text}/>
                 )}
                 </tbody>
             </table>
@@ -35,7 +35,7 @@ export default class Home extends React.Component{
     }
 }
 Home.propTypes = {
-    onDetial:PropTypes.func.isRequired,
+    onDetail:PropTypes.func.isRequired,
     userList:PropTypes.arrayOf(PropTypes.shape({
         stu_id:PropTypes.number.isRequired,
         stu_name: PropTypes.string.isRequired,

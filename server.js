@@ -12,6 +12,7 @@ const editDelete = require('./server/routers/deleteEdit');
 const signUp = require('./server/routers/signup');
 const signIn = require('./server/routers/login');
 const Admin = require('./server/routers/admin');
+const Home = require('./server/routers/home')
 const Store = require('express-mysql-session');
 const app =  express();
 const db_config = {
@@ -49,6 +50,7 @@ app.use('/',editDelete);
 app.use('/',signUp);
 app.use('/',signIn);
 app.use('/',Admin);
+app.use('/',Home);
 
 app.get("*", function (req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
