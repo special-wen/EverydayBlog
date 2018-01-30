@@ -7,13 +7,17 @@ import Home from '../components/home';
 
 const mapStateProps = (state)=>{
     console.log(state);
-    return {
-        userList: state.editList.aList
-    };
+    return{
+        userList:state.editList.aList
+    }
 };
 const mapDispathchToProps = (dispatch) =>({
     allUserList: () => {
-        dispatch({type:'ALL_USER_LIST'})
+        dispatch({type:'ALL_ESSAY_LIST'})
+    },
+    onDetial: () => {
+        console.log('跳转到别人可见的详情页');
+        dispatch({type:'USER_DETAIL'})
     }
 });
 export default connect(mapStateProps,mapDispathchToProps)(Home);
