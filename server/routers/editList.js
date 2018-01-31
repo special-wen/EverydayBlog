@@ -10,7 +10,7 @@ let db = require('../dbs/connection');
 let editSQL = require('../dbs/editSQL');
 
 
-router.post('/editList', (req, res) => {
+router.get('/editList', (req, res) => {
     db.query(editSQL.getMyAllTitle, (err, result) => {
         if (err) {
             console.log(err);

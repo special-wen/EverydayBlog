@@ -6,29 +6,48 @@ import '../../css/admin.css';
 import PropTypes from 'prop-types';
 
 function ItemUserList(props) {
-    let sex;
+    let sex,classType;
     if(props.sex === '0'){
         sex = '女';
     }else{
         sex = '男';
     }
-    return <tr onClick={props.onDetial}>
-        <td>{props.name}</td>
-        <td>{props.major_class}</td>
-        <td>{sex}</td>
-        <td>{props.github}</td>
-        <td>{props.blog}</td>
-        <td>{props.time}</td>
-        <td>{props.count}</td>
-    </tr>
+    if(props.type === '1'){
+        classType = '管理员';
+        return <tr id={props.check} onClick={props.onDetial}>
+            <td>{props.name}</td>
+            <td>{props.major_class}</td>
+            <td>{sex}</td>
+            <td>{props.github}</td>
+            <td>{props.blog}</td>
+            <td>{props.time}</td>
+            <td>{props.count}</td>
+            <td>{classType}<button onClick={props.onChangeType}>-</button></td>
+            <td><button id="delete" onClick={props.onDelete}>删除</button></td>
+        </tr>
+    }else{
+        classType = '普通用户';
+        return <tr id={props.check} onClick={props.onDetial}>
+            <td>{props.name}</td>
+            <td>{props.major_class}</td>
+            <td>{sex}</td>
+            <td>{props.github}</td>
+            <td>{props.blog}</td>
+            <td>{props.time}</td>
+            <td>{props.count}</td>
+            <td>{classType}<button onClick={props.onChangeType}>+</button></td>
+            <td><button id="delete" onClick={props.onDelete}>删除</button></td>
+        </tr>
+    }
 }
 export default class Detail extends React.Component {
     componentDidMount(){
         this.props.allUserList();
     }
     render() {
-        const {onDetial,userList} = this.props;
+        const {onDetial,userList,onDelete,onChangeType} = this.props;
         return <div>
+            <p className="check">**普通用户点击<button>+</button>可升级为管理员,管理员点击<button>-</button>可成为普通用户**</p>
             <table id="table">
                 <tbody>
                     <tr>
@@ -39,9 +58,11 @@ export default class Detail extends React.Component {
                         <th>blog地址</th>
                         <th>最新发布时间</th>
                         <th>发布文章总数</th>
+                        <th>用户类型</th>
+                        <th>是否移除</th>
                     </tr>
                     {userList.map((val)=>
-                        <ItemUserList key={val.stu_id} onDetial={onDetial} name={val.stu_name} major_class={val.major_class} sex={val.sex} github={val.github} blog={val.blog} time="" count=""/>
+                        <ItemUserList key={val.stu_id} check={val.stu_id} onDetial={onDetial} onDelete={onDelete} name={val.stu_name} major_class={val.major_class} sex={val.sex} type={val.type} github={val.github} blog={val.blog} time="" count="" onChangeType={onChangeType}/>
                     )}
                 </tbody>
             </table>
@@ -55,6 +76,9 @@ Detail.propTypes = {
         stu_name: PropTypes.string.isRequired,
         major_class: PropTypes.string.isRequired,
         sex: PropTypes.string.isRequired,
-        github: PropTypes.string.isRequired
-    }).isRequired).isRequired
+        github: PropTypes.string.isRequired,
+        type: PropTypes.string.isRequired
+    }).isRequired).isRequired,
+    onChangeType: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
 };

@@ -16,11 +16,16 @@ const mapDispatchToProps = (dispatch) => ({
             password:inputArray[1].value,
             realName:inputArray[2].value,
             major:inputArray[3].value,
-            sex:inputArray[5].checked,//男为false,女为true
-            git:inputArray[6].value,
-            blog:inputArray[7].value
+            sex:inputArray[4].value,
+            git:inputArray[5].value,
+            blog:inputArray[6].value
         };
-        dispatch(signUp(signUpInfo));
+        console.log(signUpInfo.sex);
+        if(signUpInfo.name === '' || signUpInfo.password === ''){
+            alert("用户名或密码不能为空");
+        }else{
+            dispatch(signUp(signUpInfo));
+        }
     },
     onSavePathClick: () => {
         console.log("待定！！！,,,学习文件上传部分后完成");

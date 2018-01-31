@@ -15,7 +15,8 @@ router.post('/signup', (req, res) => {
     let sex = req.body.signUpInfo.sex;
     const git = req.body.signUpInfo.git;
     const blog = req.body.signUpInfo.blog;
-    if(sex === true){
+
+    if(sex === '女'){
         sex = '0';//女生
     }else{
         sex = '1';

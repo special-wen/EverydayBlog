@@ -57,3 +57,8 @@ export const signIn = (signInInfo) => ({
     type:'SIGN_IN',
     signInInfo
 });
+//修改用户信息
+export const FixInfo = (newInfo) => ({
+    type:'UPDATE_INFO',
+    newInfo
+});

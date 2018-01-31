@@ -25,11 +25,9 @@ export default class SignUp extends React.Component {
                 <label htmlFor="major">专业班级：</label>
                 <input type="text" name="major" id="major" />
                 <br />
-                <label htmlFor="male">男</label>
-                <input type="radio" name="sex" id="male" />
-                <label htmlFor="female">女</label>
-                <input type="radio" name="sex" id="female"/>
-                <span id="normal">**若不选择默认为女生**</span>
+                <label htmlFor="sex">性别</label>
+                <input type="text" name="sex" id="sex"/>
+                <span id="normal">**请填入男或女(默认为男生)**</span>
                 <br />
                 <label htmlFor="gitAddress">github地址：</label>
                 <input type="text" name="gitAddress" id="gitAddress"/>

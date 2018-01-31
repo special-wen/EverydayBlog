@@ -5,7 +5,6 @@ import {connect} from 'react-redux';
 import Admin from '../components/admin';
 
 const mapStateToProps = (state) => {
-    console.log(state);
     return {
         userList: state.editList.aList
     };
@@ -18,6 +17,17 @@ const mapDispatchToProps = (dispatch) => ({
     onDetial: () => {
         console.log('跳转到别人可见的详情页');
         dispatch({type:'USER_DETAIL'})
+    },
+    onDelete: (e) => {
+        e.stopPropagation();
+        const id = e.target.parentNode.parentNode.id;
+        dispatch({type:'USER_DELETE',id:id});
+    },
+    onChangeType: (e) => {
+        e.stopPropagation();
+        const id = e.target.parentNode.parentNode.id;
+        const classType = e.target.innerText;
+        dispatch({type:'TYPE_CHANGE',id:id,classType:classType});
     }
 });
 

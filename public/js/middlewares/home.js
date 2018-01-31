@@ -10,7 +10,8 @@ export default store=>next=>action=> {
             .end((err,res) => {
                 if(err){
                 }//得到res响应,发出新的action,得到数据库查询的信息
-                 next({type:"ALL_ESSAY_LIST", data: res.body});
+                alert("data:"+res.body);
+                next({type:"ALL_ESSAY_LIST", data: res.body});
             })
     }
 

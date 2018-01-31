@@ -16,7 +16,7 @@ export default store=>next=>action=> {
             });
     }
     if(action.type === 'ALL_LIST'){//改变列表的action
-        request.post('/editList')
+        request.get('/editList')
             .end((err,res) => {
                 if(err){
                     console.log(err);

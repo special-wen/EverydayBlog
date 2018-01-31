@@ -1,13 +1,19 @@
 table {
     border-collapse:collapse;
-    margin: 100px auto;
+    margin: 0px auto;
 }
 th,td {
     border:1px solid black;
-    width: 150px;
+    width: 120px;
     height: 30px;
     text-align: center;
 }
 tr:hover {
     background-color: darkgray;
+}
+.check{
+    color: red;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: 80px;
 }
