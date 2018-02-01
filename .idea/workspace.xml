@@ -1,110 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15082e55-3566-4ccc-aa7a-845b9b7f7288" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/laboratoryProject-.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/036b76c483b5c51996a7d02e3b968b8cc65d6017.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/037f9dee3019993affc5703ff85c18a8ea7d268e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0470cc131423c9a32321cd081791a4695b0ffa8e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0cf93e7346c9126ff2287d592a226dd5b573c16b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0db9117aafac0207e5c3129cd69c1d02d4a86281.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/15bcdb541100218488b7f029de042b7880ba1a57.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/16c7e79c4b0c3e59829956cff318d15923905032.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/17d458851efc2637788bef77516d82319e19d4c7.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/191c4edd6aa77e9b01689cdb011164b26f46cb05.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1bdcb1d7b673fee45bb4d26666b4c5e05a8418ed.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1bfbd8ebe5349b3d54286a6042ad2c9fc4fcc0af.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1bfcbfc4ccc335b65ed7f5e200705325420f2201.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/22e226aa5ec41e43f7358baf6e7809962fc2d2c6.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2e8b1fc5a3d185963b9bbf6bf8b29398d366acba.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2f4e8ea3b35d9069dab443dab1a2d95784db6456.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/32db9a225034b272d2d5f6895582992eeb0d0b4d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/355bd6c5a8ec3de092250ae62db092abbd3ba2dd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/397bc971fd7662350a779623822f1c7ef5fef6f0.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/482b5368dedc3db710c03277aaef14bab185dda3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4d231d40d5f5d6c42c648c96c9ad3d510a9a38ca.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/52d9e3dbbfa5edc68e373ed0e59982212accc833.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59217c9410f36fae2bca1c5620e6f525c7d62c8a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d10492ed11cd8223f86ec7510ae14aefdc24105.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6309039f8d5a966a0ed6cb6a3afeec9604397da1.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/71947f7b88e6864ad7f75d17eb79081ff9a94bdd.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7780873b05758fa7d9d332a26e2d0a552b8b84d3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7e0ff8ebef46f814cb025a5d100ab525b0a260af.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/83bc46396c38d373299dd3df0726efea814c161a.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/83d27d251528a511f2ec1db56f346cf04fbb13c9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/84d837ec748492f8dcc7a0d0ac654f179e865ad4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/875f3caf1873b362b4ea3c5a0dc4e3d9867de072.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8a45f626b9520a756cf365311c5136d227b6b48e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8db4ae317ad024b06910583a8d3132474c87397c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8e2a166fb5866884bb2f886430f697572939c624.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8f9bdb7333b1d95302d87ae06367e6e63825a6e8.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8fe518ac66b0f34d60fab006b7ce36fdb6b8015d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/97f27462abbfc4c6f79134350ce36cfd7e295253.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/98f4baa09ec34147c846babbf16c7947cb129c24.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9fdb67c18aeb0700629e1e243e00423c1cdeceb1.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a5835df0a7d0b3a0c66da00f492db1e1c7268802.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/afad67c36fc8f66e731422d45aba93ef1dc47e82.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b1472526c0f2d6cc74981872767edb058a4e5ca9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bcce190bf56e4fc1f7dbab14b2b6b6c678ae99b4.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c1441842e7899578b2bd6484c4a31b40778ef814.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c1dd4acdd73747fece01f3e818508c2329bd5512.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c4c9b109e1f605954ba127fa88d766135ab6258d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c5306118b2313755eb77b8d68a75a4070c6a7f4b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cb5047d2562d4bbe79a1936eb6fc371e1a3a7faf.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cc63c8672b7b28c3a69bf5b12861f07c12f21dd3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d3ef45ab8707c57d26ff06a732369746d83def10.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d7a3585bd14400b85efaf903d9ae5e665232a4c8.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d7bf02a324acc9ceac5f0d9174524394b6ff98f7.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d9d2163530042f3766b828ea58ec49f3be96fac3.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dce850bf69b24758c1e6550d0d55c214be34db40.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dd0f723d2dfef2a13b61fb11e6e3262fcbfe7a3e.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e33d6bd23a677c66a52da0d17358f4511b4c9121.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e93a1cf76045cb455cd47233e8f431494883686b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e98cfa7d63f6bd183f6d33aa68ce5dd366a1613b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecd8131d9e4ac8a9d268046324978201c0d8588d.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f13070e4b0b09f1a9a45f9400e52e49ee4eb64b9.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f213646895a45be6e233587992c5e9ef08b9ce4c.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f34bdf5e394ccf2a9fcc0abc470ea4e22812489e.json.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="69ecc41f-9dcd-4657-8c44-ce6ffb7348d2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/077bc47121a1274071796ac4568265f065afd17b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0c0f795c6df0a7054937bb3acb7ec91811c15e0e.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/16d073faa8aad1679b2108791e36cc67c6d00cca.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/215a7ee85264c68ebd5b8f214d3a179dd16692b4.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2a852653542cff043cac15ce5645789416343746.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/302b352e30ddde32b38a4284f25925b334f27bb4.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/323ff0a3dfdbf7a3aa1430aec6ec03a2205671ac.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/36f3d024f6a48ce82d273d608d08c4cbad014388.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/45ae1b3fa00a60e60b180b8b6c7e451a31a0cd2f.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/51488f3ff60f9074a1a15af15e98b69894a0aa55.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5517ba82ae0c1dc903f1ba4f129ffa48aaee93ea.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/555ea868e4d4b4f709ba6af5f55eef7b90613ed6.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/56eb8c60c251f3fe728051e0e35aca08a9b32f43.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6066dd8b6126ec6ba91528a6a543d814dc2f3f3d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/71c416f7918eca11329f009af7a196a1051f9482.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7d25fac61ca32d3e89f3524e74b9d06484eb5a5e.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/905845109a879d8e49a8e1b0b3d4824277c5b79f.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/92ffb3e1843a6b0739600cf63b7eff924dab1236.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a29dcfea561e3e31e253f24518256f9179025116.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a419bffcd093fbab290e1d23ab9c28275ddaa90a.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a4907fdad89e5c4258f194069ac479f5da3ef2a1.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a528726046db0a253c2423e0acc6ee0654c6d707.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a85ae564cc80b69b40be161c78ce04803e4e1814.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a926f45b52ae89a8224b869ab37d2d186cf4561e.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b896637b877a509fb0d62eaf11ff639ffda67e1d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bb8bd65574952b4f163a9e63f3e950eb7919e21e.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c849754ae7ccc9339859f0523972db060e5b66c7.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cab5f893e30816aee27050e6d2b3279e5d788c27.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d1678dd453d724a089e30c5759d07268eff6b1aa.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d27daca1bd603a12913ceed9c96fd60d963f6b1b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d28bf9216e025808b92b56ee020db6125010a41f.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e271673126417a817bff2ab222ea819a14b36a49.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e97f8f525c049d9554b655d8b4426594684bfcde.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eaa72ac334712d6216fb07385ac83d6d6a239942.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ee5432349ae6de252ccc4792ccb4ee9182457988.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f0125d4ec4a1e90463f1a962763007cef38ddd0a.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ffad02e2045daf5ce12062dbcd1dd2d11878460a.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/containers/home.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crc/package.json" afterPath="$PROJECT_DIR$/node_modules/crc/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-mysql-session/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express-mysql-session/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-mysql-session/package.json" afterPath="$PROJECT_DIR$/node_modules/express-mysql-session/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/package.json" afterPath="$PROJECT_DIR$/node_modules/express-session/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/on-headers/package.json" afterPath="$PROJECT_DIR$/node_modules/on-headers/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/random-bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uid-safe/package.json" afterPath="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/underscore/package.json" afterPath="$PROJECT_DIR$/node_modules/underscore/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin.css" afterPath="$PROJECT_DIR$/public/css/admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/index.js" afterPath="$PROJECT_DIR$/public/dist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/vendor.js" afterPath="$PROJECT_DIR$/public/dist/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/action/index.js" afterPath="$PROJECT_DIR$/public/js/action/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/admin.js" afterPath="$PROJECT_DIR$/public/js/components/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/home.js" afterPath="$PROJECT_DIR$/public/js/components/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/index.js" afterPath="$PROJECT_DIR$/public/js/components/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/signup.js" afterPath="$PROJECT_DIR$/public/js/components/signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/admin.js" afterPath="$PROJECT_DIR$/public/js/containers/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/index.js" afterPath="$PROJECT_DIR$/public/js/containers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/signup.js" afterPath="$PROJECT_DIR$/public/js/containers/signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/admin.js" afterPath="$PROJECT_DIR$/public/js/middlewares/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/edit.js" afterPath="$PROJECT_DIR$/public/js/middlewares/edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/home.js" afterPath="$PROJECT_DIR$/public/js/middlewares/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/index.js" afterPath="$PROJECT_DIR$/public/js/middlewares/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/signup.js" afterPath="$PROJECT_DIR$/public/js/middlewares/signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reducers/index.js" afterPath="$PROJECT_DIR$/public/js/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/login.js" afterPath="$PROJECT_DIR$/public/js/middlewares/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/reducers/editList.js" afterPath="$PROJECT_DIR$/public/js/reducers/editList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/dbs/connection.js" afterPath="$PROJECT_DIR$/server/dbs/connection.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/dbs/editSQL.js" afterPath="$PROJECT_DIR$/server/dbs/editSQL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/dbs/signSQL.js" afterPath="$PROJECT_DIR$/server/dbs/signSQL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/admin.js" afterPath="$PROJECT_DIR$/server/routers/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/editList.js" afterPath="$PROJECT_DIR$/server/routers/editList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/hello.js" afterPath="$PROJECT_DIR$/server/routers/hello.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/home.js" afterPath="$PROJECT_DIR$/server/routers/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/login.js" afterPath="$PROJECT_DIR$/server/routers/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/signup.js" afterPath="$PROJECT_DIR$/server/routers/signup.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -117,27 +62,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7177799">
+    <splitter split-orientation="horizontal" split-proportion="0.168693">
       <split-first>
         <leaf>
-          <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/routers/admin.js">
+          <file leaf-file-name="editList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/js/reducers/editList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
+          <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="656">
-                  <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+                <state relative-caret-position="171">
+                  <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#39#65#0" expanded="true" />
+                    <element signature="e#41#67#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -148,11 +93,14 @@
       <split-second>
         <leaf>
           <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/routers/home.js">
+            <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
-                  <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-                  <folding />
+                <state relative-caret-position="193">
+                  <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#39#65#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -168,21 +116,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ALL_STU_LIST</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/js/containers/home.js" />
-        <option value="$PROJECT_DIR$/public/js/middlewares/home.js" />
-        <option value="$PROJECT_DIR$/public/js/reducers/editList.js" />
-        <option value="$PROJECT_DIR$/public/js/middlewares/login.js" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/server/dbs/editSQL.js" />
+        <option value="$PROJECT_DIR$/server/dbs/connection.js" />
         <option value="$PROJECT_DIR$/server/dbs/signSQL.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/server/dbs/editSQL.js" />
         <option value="$PROJECT_DIR$/server/routers/home.js" />
+        <option value="$PROJECT_DIR$/public/js/middlewares/home.js" />
         <option value="$PROJECT_DIR$/public/js/components/home.js" />
       </list>
     </option>
@@ -198,12 +148,12 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="683" />
     <option name="y" value="27" />
-    <option name="width" value="1366" />
+    <option name="width" value="683" />
     <option name="height" value="741" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -242,21 +192,7 @@
               <item name="EverydayBlog" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EverydayBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EverydayBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EverydayBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EverydayBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EverydayBlog" type="b2602c69:ProjectViewProjectNode" />
@@ -293,8 +229,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,38 +261,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="15082e55-3566-4ccc-aa7a-845b9b7f7288" name="Default" comment="" />
-      <created>1517385691148</created>
+      <changelist id="69ecc41f-9dcd-4657-8c44-ce6ffb7348d2" name="Default" comment="" />
+      <created>1517463595758</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1517385691148</updated>
-      <workItem from="1517385696596" duration="197000" />
-      <workItem from="1517386280172" duration="3661000" />
+      <updated>1517463595758</updated>
+      <workItem from="1517463598845" duration="2279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3858000" />
+    <option name="totallyTimeSpent" value="2279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="683" y="27" width="683" height="741" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20789866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -371,120 +307,87 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/server/dbs/connection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-            <element signature="e#819#862#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/middlewares/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/middlewares/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/reducers/editList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/middlewares/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/containers/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#37#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="171">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/dbs/editSQL.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/dbs/signSQL.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="95">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/middlewares/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routers/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="-342">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/login.js">
+    <entry file="file://$PROJECT_DIR$/public/js/middlewares/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/reducers/editList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routers/admin.js">
+    <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#41#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="193">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#39#65#0" expanded="true" />
