@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import PropTypes from 'prop-types';
+
 export default class Index extends React.Component {
     componentDidMount(){
         this.props.deleteSession();
@@ -16,8 +17,10 @@ export default class Index extends React.Component {
         </div>
     }
 }
+
 Index.propTypes = {
     onSignUp: PropTypes.func.isRequired,
     onSignIn: PropTypes.func.isRequired,
     onSetting: PropTypes.func.isRequired
 };
+

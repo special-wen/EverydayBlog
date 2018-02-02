@@ -8,7 +8,7 @@ const router = express.Router();
 let db = require('../dbs/connection');
 let editSQL = require('../dbs/editSQL');
 let userSQL = require('../dbs/signSQL');
-router.get('/home',(req,res)=>{
+router.get('/homeList',(req,res)=>{
     console.log("session中的username:");
     console.log(req.session.signInInfo.username);
     const index_name = req.session.signInInfo.username;
@@ -24,8 +24,7 @@ router.get('/home',(req,res)=>{
                     stu.name = user.name;
                     aaa.push(stu);
                     if (aaa.length === result.length){
-                        aaa.push(index_name);
-                        // console.log(aaa);
+                        console.log(aaa.length,result.length);
                         res.json(aaa)
                     }
                 })
