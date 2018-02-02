@@ -11,7 +11,8 @@ let userSQL = require('../dbs/signSQL');
 router.get('/homeList',(req,res)=>{
     console.log("session中的username:");
     console.log(req.session.signInInfo.username);
-    const index_name = req.session.signInInfo.username;
+    const user_id = req.session.signInInfo.userId;
+    const user_name = req.session.signInInfo.username;
     // console.log("登录信息"+index_name);
     db.query(editSQL.getMyAllTitle,(err,result)=>{
         if(err){
@@ -24,7 +25,11 @@ router.get('/homeList',(req,res)=>{
                     stu.name = user.name;
                     aaa.push(stu);
                     if (aaa.length === result.length){
-                        console.log(aaa.length,result.length);
+                        aaa.session_name = user_name;
+                        aaa.session_id = user_id;
+                        // aaa.push(user_id);
+                        // aaa.push(user_name);
+
                         res.json(aaa)
                     }
                 })

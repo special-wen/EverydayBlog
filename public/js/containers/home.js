@@ -7,7 +7,7 @@ import Home from '../components/home';
 
 const mapStateToProps = (state)=>{
     return{
-        essayList:state.editList.aList
+        essayList:state.editList.aList,
     };
 };
 
