@@ -17,7 +17,7 @@ const signIn = require('./server/routers/login');
 const Admin = require('./server/routers/admin');
 const Setting = require('./server/routers/setting');
 const Home = require('./server/routers/home');
-
+const Header = require('./server/routers/header');
 const db_config = {
     host: 'localhost',
     user: 'root',
@@ -55,6 +55,7 @@ app.use('/',signIn);
 app.use('/',Admin);
 app.use('/',Setting);
 app.use('/',Home);
+app.use('/',Header);
 
 app.get("*", function (req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));

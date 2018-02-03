@@ -14,6 +14,7 @@ import middleSignIn from './middlewares/login';
 import middleAdmin from './middlewares/admin';
 import middleSetting from './middlewares/setting';
 import middleHome from './middlewares/home';
+import middleHeader from './middlewares/header';
 //hello的demo,可将容器组件再次封装（可使用ownProps属性传递参数），将组件页面引入显示
 import Change from './components/helloChange';
 //直接将容器组件引入，通过与组件之间的相互关联，引入页面
@@ -24,8 +25,9 @@ import SignIn from './containers/login';
 import Admin from './containers/admin';
 import  Setting from './containers/setting';
 import Home from './containers/home';
+import Header from './containers/header';
 
-const createMiddlewareStore = applyMiddleware(middleHello,middleEdit,middleDeleteEdit,middleIndex,middleSignUp,middleSignIn,middleAdmin,middleSetting,middleHome)(createStore);
+const createMiddlewareStore = applyMiddleware(middleHello,middleEdit,middleDeleteEdit,middleIndex,middleSignUp,middleSignIn,middleAdmin,middleSetting,middleHome,middleHeader)(createStore);
 
 const store = createMiddlewareStore(reducer);
 
@@ -38,5 +40,6 @@ render(<Provider store={store}>
         <Route path='/admin' component={Admin}/>
         <Route path='/setting' component={Setting} />
         <Route path='/home' components={Home}/>
+        <Route path='/header' components={Header}/>
     </Router>
 </Provider>, document.getElementById("content"));

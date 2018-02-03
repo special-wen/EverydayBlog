@@ -3,12 +3,12 @@ import hello from "./hello";
 import edit from './edit';
 import editList from './editList';
 import setting from './setting';
-import userinfo from './userInfo';
+import userInfo from './userInfo';
 //管理状态reducer的整合
 export default combineReducers({
     hello,
     edit,
     editList,
     setting,
-    userinfo
+    userInfo
 });
