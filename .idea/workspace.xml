@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ecc41f-9dcd-4657-8c44-ce6ffb7348d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/index.js" afterPath="$PROJECT_DIR$/public/dist/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/header.js" afterPath="$PROJECT_DIR$/public/js/components/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/home.js" afterPath="$PROJECT_DIR$/public/js/components/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/components/login.js" afterPath="$PROJECT_DIR$/public/js/components/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/header.js" afterPath="$PROJECT_DIR$/public/js/containers/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/containers/home.js" afterPath="$PROJECT_DIR$/public/js/containers/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/middlewares/home.js" afterPath="$PROJECT_DIR$/public/js/middlewares/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routers/home.js" afterPath="$PROJECT_DIR$/server/routers/home.js" />
     </list>
@@ -26,24 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/components/index.js">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#39#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/containers/index.js">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,15 +78,15 @@
         <option value="$PROJECT_DIR$/public/js/reducers/userInfo.js" />
         <option value="$PROJECT_DIR$/server/routers/header.js" />
         <option value="$PROJECT_DIR$/public/js/middlewares/header.js" />
-        <option value="$PROJECT_DIR$/server/routers/home.js" />
-        <option value="$PROJECT_DIR$/public/js/components/home.js" />
         <option value="$PROJECT_DIR$/public/js/containers/home.js" />
-        <option value="$PROJECT_DIR$/public/js/middlewares/home.js" />
         <option value="$PROJECT_DIR$/public/js/components/login.js" />
         <option value="$PROJECT_DIR$/public/css/login.css" />
-        <option value="$PROJECT_DIR$/public/js/containers/header.js" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/public/js/containers/header.js" />
+        <option value="$PROJECT_DIR$/public/js/middlewares/home.js" />
+        <option value="$PROJECT_DIR$/server/routers/home.js" />
         <option value="$PROJECT_DIR$/public/js/components/header.js" />
+        <option value="$PROJECT_DIR$/public/js/components/home.js" />
       </list>
     </option>
   </component>
@@ -247,18 +242,18 @@
       <updated>1517463595758</updated>
       <workItem from="1517463598845" duration="2279000" />
       <workItem from="1517537681666" duration="13434000" />
-      <workItem from="1517627278526" duration="17120000" />
+      <workItem from="1517627278526" duration="19516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32833000" />
+    <option name="totallyTimeSpent" value="35229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15722802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -414,14 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routers/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/containers/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -484,14 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/middlewares/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/containers/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -519,14 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routers/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/routers/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -539,14 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/middlewares/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -594,17 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/containers/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#37#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/middlewares/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -631,39 +583,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="64" column="76" lean-forward="true" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
-          <folding>
-            <element signature="e#41#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#39#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#39#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="266">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
@@ -676,6 +598,77 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/containers/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#37#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/middlewares/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/middlewares/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="64" column="76" lean-forward="true" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+          <folding>
+            <element signature="e#41#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

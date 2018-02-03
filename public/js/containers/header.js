@@ -25,12 +25,6 @@ const mapDispatchToProps = (dispatch)=>({
     logOut:()=>{
         console.log('退出登录');
         dispatch({type:'LOGOUT'})
-    },
-    onSignUp: () => {
-        dispatch({type:'GET_UP'});//注册跳转页面的请求
-    },
-    onSignIn: () => {
-        dispatch({type:'GET_IN'});//注册跳转页面的请求
     }
 })
 

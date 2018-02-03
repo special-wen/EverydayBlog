@@ -6,7 +6,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 function UserInfo(props) {
     console.log(props.user_name+props.headPath);
-    if (props.headPath === null){
+    if (props.headPath == null ){
         return <div id = "header">
             <ul>
                 <li>{props.user_name}</li>
@@ -28,7 +28,7 @@ export default class Header extends React.Component{
         const {userInfo,myHome,setting,logOut} = this.props;
         return <div>
             {userInfo.map((val)=>
-                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut}  user_name={val.user_name} head_path={val.headPath}/>
+                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} user_name={val.user_name} head_path={val.headPath}/>
             )}
         </div>
     }
