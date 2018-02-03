@@ -14,6 +14,16 @@ export default store=>next=>action=>{
             alert("查询成功:"+res.body);
             next({type:"ALL_USER_INFO",data:res.body})
         })
-    }else
+    }
+    if (action.type === 'MY_HOME'){
+        window.location.href = '/myhome';
+    }
+    if (action.type === 'CHANGE_USER_INFO'){
+        window.location.href = '/setting';
+    }
+    if (action.type === 'LOGOUT'){
+        window.location.href = '/';
+    }
+    else
         next(action);
 }

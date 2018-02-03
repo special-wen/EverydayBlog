@@ -6,6 +6,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../../css/home.css';
 
+function UserInfo(props) {
+    console.log(props.user_name+props.headPath);
+    if (props.headPath == null){
+        return <div id = "header">
+            <ul>
+                <li>{props.user_name}</li>
+                <li><img src="../../images/photo.jpeg" alt="" width={60} height={60}/></li>
+                <li onClick={props.myHome}>我的主页</li>
+                <li onClick={props.setting}>修改个人信息</li>
+                <li onClick={props.logOut}>退出登录</li>
+            </ul>
+        </div>
+    }
+
+
+}
 function ItemEssayList(props) {
     // console.log(props.name);
     console.log(props.session_name);
@@ -27,8 +43,13 @@ export default class Home extends React.Component{
         this.props.allEssayList();
     }
     render(){
-        const {onDetials,essayList} = this.props;
+        const {onDetials,essayList,userInfo,myHome,setting,logOut} = this.props;
         return <div>
+            <div>
+                {userInfo.map((val)=>
+                    <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} user_name={val.user_name} head_path={val.headPath}/>
+                )}
+            </div>
             <table id= "table">
                 <tbody>
                     <tr>
@@ -47,6 +68,13 @@ export default class Home extends React.Component{
     }
 }
 Home.propTypes={
+    logOut:PropTypes.func.isRequired,
+    setting:PropTypes.func.isRequired,
+    myHome:PropTypes.func.isRequired,
+    userInfo:PropTypes.arrayOf(PropTypes.shape({
+        user_id:PropTypes.number.isRequired,
+        user_name:PropTypes.string.isRequired
+    }).isRequired).isRequired,
     onDetials:PropTypes.func.isRequired,
     essayList:PropTypes.arrayOf(PropTypes.shape({
         ess_id:PropTypes.number.isRequired,
