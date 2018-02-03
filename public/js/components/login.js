@@ -3,13 +3,13 @@
  */
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import '../../css/login.css';
 export default class Login extends React.Component {
 
     render() {
         const {onClickSignIn} = this.props;
         return (
-            <div>
+            <div id = "login">
                 <form>
                     <label htmlFor="name">用户名：</label>
                     <input type="text" name="name" id="name"/>

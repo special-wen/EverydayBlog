@@ -23,7 +23,9 @@ router.get('/homeList',(req,res)=>{
             db.query(userSQL.findById,stu.user_id,(err,resUser)=>{
                 resUser.map((user)=>{
                     stu.name = user.name;
+                    stu.head = user.head_path;
                     aaa.push(stu);
+                    console.log(stu.head);
                     if (aaa.length === result.length){
                         aaa.session_name = user_name;
                         aaa.session_id = user_id;

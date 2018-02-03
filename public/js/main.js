@@ -39,7 +39,7 @@ render(<Provider store={store}>
         <Route path='/signin' component={SignIn}/>
         <Route path='/admin' component={Admin}/>
         <Route path='/setting' component={Setting} />
-        <Route path='/home' components={Home}/>
-        <Route path='/header' components={Header}/>
+        <Route path='header' component={Header} />
+        <Route path='home' component={Home}/>
     </Router>
 </Provider>, document.getElementById("content"));
