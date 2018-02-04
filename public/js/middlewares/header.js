@@ -11,7 +11,6 @@ export default store=>next=>action=>{
             if (err){
                 console.log(err);
             }
-            alert("查询成功:"+res.body);
             next({type:"ALL_USER_INFO",data:res.body})
         })
     }
@@ -21,8 +20,22 @@ export default store=>next=>action=>{
     if (action.type === 'CHANGE_USER_INFO'){
         window.location.href = '/setting';
     }
-    if (action.type === 'LOGOUT'){
+    if (action.type === 'LOGOUT') {
         window.location.href = '/';
+        request.get('/deleteSession')
+            .end((err, res) => {
+                if (err) {
+                    console.log(err);
+                }
+        });
+    }
+    if (action.type === 'GET_UP') {
+        console.log("send");
+        window.location.href = "./signup";
+    }
+    if(action.type === 'GET_IN'){
+        console.log("login");
+        window.location.href = "./signin";
     }
     else
         next(action);

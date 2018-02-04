@@ -6,8 +6,6 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const Store = require('express-mysql-session');
-
-
 const hello = require('./server/routers/hello');
 const addEdit = require('./server/routers/addEdit');
 const editList = require('./server/routers/editList');
@@ -61,11 +59,6 @@ app.get("*", function (req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
-// app.use('/', function (req, res) {
-//     console.log('hello');
-//     delete req.session.signInInfo;
-//     delete app.locals.signInInfo;
-// });
 app.listen(3000, () => {
     console.log('server start');
 });

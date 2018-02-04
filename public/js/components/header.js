@@ -5,8 +5,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 function UserInfo(props) {
-    console.log(props.user_name+props.headPath);
-    if (props.headPath == null ){
+    console.log(props);
+    // alert("id:"+props.user_id+"name:"+props.user_name);
+    if (props.user_name == null){
+        return <div id = "header">
+            <button onClick={props.onSignUp}>注册</button>
+            <button onClick={props.onSignIn}>登录</button>
+        </div>
+    }
+    if (props.headPath == null && props.user_name!=null){
         return <div id = "header">
             <ul>
                 <li>{props.user_name}</li>
@@ -25,21 +32,23 @@ export default class Header extends React.Component{
         this.props.UserInfo();
     }
     render(){
-        const {userInfo,myHome,setting,logOut} = this.props;
+        const {userInfo,myHome,setting,logOut,onSignUp,onSignIn} = this.props;
         return <div>
             {userInfo.map((val)=>
-                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} user_name={val.user_name} head_path={val.headPath}/>
+                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} onSignUp={onSignUp} onSignIn={onSignIn} user_name={val.user_name} head_path={val.headPath}/>
             )}
         </div>
     }
 }
 
 Header.propTypes={
+    onSignUp: PropTypes.func.isRequired,
+    onSignIn: PropTypes.func.isRequired,
     logOut:PropTypes.func.isRequired,
     setting:PropTypes.func.isRequired,
     myHome:PropTypes.func.isRequired,
-    userInfo:PropTypes.arrayOf(PropTypes.shape({
-        user_id:PropTypes.number.isRequired,
-        user_name:PropTypes.string.isRequired
-    }).isRequired).isRequired
+    // userInfo:PropTypes.arrayOf(PropTypes.shape({
+    //     user_id:PropTypes.number.isRequired,
+    //     user_name:PropTypes.string.isRequired
+    // }).isRequired).isRequired
 };

@@ -8,15 +8,23 @@ const router = express.Router();
 
 
 router.get('/userInfo',(req,res)=>{
-    const user_id = req.session.signInInfo.userId;
-    const user_name = req.session.signInInfo.username;
-    const headPath = req.session.signInInfo.headPath;
-    let user = [];
-    // user.user_id = user_id;
-    // user.user_name = user_name;
-    user.push({user_id:user_id,user_name:user_name,headPath:headPath});
-    console.log(user);
-    res.json(user);
+    if (req.session.signInInfo == null){
+        let user = [];
+        const user_id = 0;
+        user.push({user_id:user_id});
+        res.json(user);
+    }else {
+
+        const id = req.session.signInInfo.userId;
+        const name = req.session.signInInfo.username;
+        const headPath = req.session.signInInfo.headPath;
+        let user = [];
+        user.push({user_id:id,user_name:name,headPath:headPath});
+        console.log(id,user.user_id);
+        console.log(user);
+        res.json(user);
+    }
+
 });
 
 module.exports = router;

@@ -12,10 +12,6 @@ export default store => next => action => {
         console.log("login");
         window.location.href = "./signin";
     }
-    if(action.type === 'FIX_INFO'){
-        console.log("setting");
-        window.location.href = "./setting";
-    }
     if(action.type === 'DELETE_SESSION'){
         request.get('/deleteSession')
             .end((err, res) => {

@@ -44,9 +44,11 @@ router.post('/signin', (req, res) => {
 const app = new express();
 router.get('/deleteSession', (req, res) => {
     console.log("清除session");
-    delete req.session.signInInfo;
-    delete app.locals.signInInfo;
-    console.log(req.session.signInInfo);
+    req.session.destroy();
+    // delete req.session.signInInfo;
+    // delete app.locals.signInInfo;
+    console.log("清除了"+req.session);
+    // console.log(req.session.signInInfo);
     //res.json({data: "eee"});
 });
 
