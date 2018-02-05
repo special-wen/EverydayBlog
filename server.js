@@ -6,6 +6,8 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const Store = require('express-mysql-session');
+
+
 const hello = require('./server/routers/hello');
 const addEdit = require('./server/routers/addEdit');
 const editList = require('./server/routers/editList');
@@ -16,6 +18,7 @@ const Admin = require('./server/routers/admin');
 const Setting = require('./server/routers/setting');
 const Home = require('./server/routers/home');
 const Header = require('./server/routers/header');
+
 const db_config = {
     host: 'localhost',
     user: 'root',
@@ -59,6 +62,17 @@ app.get("*", function (req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
+// app.use('/', function (req, res) {
+//     console.log('hello');
+//     delete req.session.signInInfo;
+//     delete app.locals.signInInfo;
+// });
+// app.get('/deleteSession', (req, res) => {
+//     console.log("清除session");
+//     delete req.session.signInInfo;
+//     delete app.locals.signInInfo;
+//     console.log(req.session.signInInfo);
+// });
 app.listen(3000, () => {
     console.log('server start');
 });

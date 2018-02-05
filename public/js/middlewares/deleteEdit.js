@@ -11,7 +11,7 @@ export default store => next => action => {
                 if(err){
                     console.log(err);
                 }//删除文章之后改变列表
-                next({type:"ALL_LIST", data: res.body});
+                next({type:"ALL_LIST_HEADER", data: res.body});
             });
     }
 

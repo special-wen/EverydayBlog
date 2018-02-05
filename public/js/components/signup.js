@@ -7,6 +7,7 @@
 import React from 'react';
 import '../../css/sign.css';
 import PropTypes from 'prop-types';
+import FileInput from 'react-file-input';
 export default class SignUp extends React.Component {
     render() {
         const {onClickSignUp,onSavePathClick} = this.props;
@@ -18,7 +19,8 @@ export default class SignUp extends React.Component {
                 <label htmlFor="password">密码：</label>
                 <input type="password" name="password" id="password" />
                 <br />
-                <div id="image" onClick={onSavePathClick}></div>
+                <img id="image" src="../../images/0007020099634317_b.png"/><br/>
+                <FileInput type="file" name="myImage" accept=".png,.gif,.jpg" placeholder="点击选择图片" onChange={onSavePathClick}/>
                 <label htmlFor="name">真实姓名：</label>
                 <input type="text" name="realName" id="realName"/>
                 <br />

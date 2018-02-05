@@ -20,6 +20,9 @@ export default store=>next=>action=> {
     if(action.type === 'USER_DETAIL'){
         window.location.href = '/detail';
     }
+    if(action.type === 'PERSON_HOME'){
+        window.location.href = '/home';
+    }
     if(action.type === 'USER_DELETE'){
         request.post('/deleteList')
             .send(action)

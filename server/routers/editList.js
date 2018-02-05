@@ -11,7 +11,8 @@ let editSQL = require('../dbs/editSQL');
 
 
 router.get('/editList', (req, res) => {
-    db.query(editSQL.getMyAllTitle, (err, result) => {
+    const id = req.session.signInInfo.userId;
+    db.query(editSQL.getMyAllTitle,id, (err, result) => {
         if (err) {
             console.log(err);
         }

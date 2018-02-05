@@ -14,23 +14,24 @@ router.post('/edit', (req, res) => {
     console.log(req.body);
     const title = req.body.title;
     const text = req.body.text;
-    const id = req.body.id;
-    if(id === ''){//数据库增加数据
-        db.query(editSQL.insert,[title,text], function (err, result) {
+    const ess_id = req.body.id;
+    const user_id = req.session.signInInfo.userId;
+    if(ess_id === ''){//数据库增加数据
+        db.query(editSQL.insert,[user_id,title,text], function (err, result) {
             if (err) return err;
             console.log('--------------------------INSERT----------------------------');
             console.log('INSERT ID:', result);
             console.log('-----------------------------------------------------------------\n\n');
         });
-    }else{//数据库删除数据
-        db.query(editSQL.update,[title,text,id],function (err, result) {
+    }else{//数据库更新数据
+        db.query(editSQL.update,[title,text,ess_id],function (err, result) {
             if(err) return err;
             console.log('--------------------------UPDATE----------------------------');
             console.log('INSERT ID:', result);
             console.log('-----------------------------------------------------------------\n\n');
         })
     }
-    db.query(editSQL.getMyAllTitle, (err, result) => {
+    db.query(editSQL.getMyAllTitle, user_id, (err, result) => {
         if (err) {
             console.log(err);
         }

@@ -15,7 +15,7 @@ router.post('/signup', (req, res) => {
     let sex = req.body.signUpInfo.sex;
     const git = req.body.signUpInfo.git;
     const blog = req.body.signUpInfo.blog;
-
+    const headPath = req.body.signUpInfo.headPath;
     if(sex === '女'){
         sex = '0';//女生
     }else{
@@ -26,7 +26,7 @@ router.post('/signup', (req, res) => {
             console.log(err);
         }else{
             if(result.length === 0){
-                db.query(signSQL.insert,[name,password],function (err, result){
+                db.query(signSQL.insert,[name,password,headPath],function (err, result){
                    if(err){//插入user表信息
                        console.log(err);
                    }else{

@@ -15,6 +15,10 @@ const mapDispatchToProps = (dispatch,ownProps) => ({
     },
     onSignIn: () => {
         dispatch({type:'GET_IN'});//注册跳转页面的请求
+    },
+    onSetting: () => {
+        console.log("修改个人信息");
+        dispatch({type:'FIX_INFO'});
     }
 });
 const SignUp = connect(mapStateToProps, mapDispatchToProps)(Index);

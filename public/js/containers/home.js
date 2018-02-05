@@ -7,7 +7,6 @@ import Home from '../components/home';
 
 const mapStateToProps = (state)=>{
     return{
-        userInfo:state.userInfo.aList,
         essayList:state.editList.aList,
     };
 };
@@ -16,10 +15,16 @@ const mapDispatchToProps = (dispatch)=>({
     allEssayList:()=>{
         dispatch({type:'ALL_ESSAY_LIST'})
     },
-    onDetials:()=>{
+    onDetials:(e)=>{
         console.log("文章内容：");
-        dispatch({type:'ESS_DETIALS'})
+        e.stopPropagation();
+        const ess_id = e.target.parentNode.id;
+        dispatch({type:'ESS_DETIALS',id:ess_id})
     },
+    otherHome:(e)=>{
+        console.log("别人的主页：");
+
+    }
 });
 
 export default connect(mapStateToProps,mapDispatchToProps)(Home);

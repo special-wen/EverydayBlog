@@ -12,7 +12,7 @@ export default store => next => action => {
                 }
                 if(res.text === '{"data":"false"}'){
                     alert('请先登录，再修改信息');
-                    window.location.href = '/';
+                    window.location.href = '/signin';
                 }else{
                     next({type:"GET_OLD_INFO", data: res.body});
                 }

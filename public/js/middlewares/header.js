@@ -8,11 +8,11 @@ export default store=>next=>action=>{
     if (action.type === 'USER_INFO'){
         request.get('/userInfo')
             .end((err,res)=>{
-            if (err){
-                console.log(err);
-            }
-            next({type:"ALL_USER_INFO",data:res.body})
-        })
+                if (err){
+                    console.log(err);
+                }
+                next({type:"ALL_USER_INFO",data:res.body})
+            })
     }
     if (action.type === 'MY_HOME'){
         window.location.href = '/myhome';
@@ -27,7 +27,7 @@ export default store=>next=>action=>{
                 if (err) {
                     console.log(err);
                 }
-        });
+            });
     }
     if (action.type === 'GET_UP') {
         console.log("send");

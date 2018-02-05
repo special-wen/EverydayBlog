@@ -5,7 +5,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 function UserInfo(props) {
-    console.log(props);
+    console.log(props.user_name);
     // alert("id:"+props.user_id+"name:"+props.user_name);
     if (props.user_name == null){
         return <div id = "header">
@@ -13,7 +13,7 @@ function UserInfo(props) {
             <button onClick={props.onSignIn}>登录</button>
         </div>
     }
-    if (props.headPath == null && props.user_name!=null){
+    if (props.head_path == null && props.user_name!=null){
         return <div id = "header">
             <ul>
                 <li>{props.user_name}</li>
@@ -24,7 +24,18 @@ function UserInfo(props) {
             </ul>
         </div>
     }
-    
+    if (props.head_path != '' && props.user_name!=null){
+        return <div id = "header">
+            <ul>
+                <li>{props.user_name}</li>
+                <li><img src={props.head_path} alt="" width={60} height={60}/></li>
+                <li onClick={props.myHome}>我的主页</li>
+                <li onClick={props.setting}>修改个人信息</li>
+                <li onClick={props.logOut}>退出登录</li>
+            </ul>
+        </div>
+    }
+
 
 }
 export default class Header extends React.Component{
@@ -35,7 +46,7 @@ export default class Header extends React.Component{
         const {userInfo,myHome,setting,logOut,onSignUp,onSignIn} = this.props;
         return <div>
             {userInfo.map((val)=>
-                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} onSignUp={onSignUp} onSignIn={onSignIn} user_name={val.user_name} head_path={val.headPath}/>
+                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} onSignUp={onSignUp} onSignIn={onSignIn} otherHome={otherHome} user_name={val.user_name} head_path={val.headPath}/>
             )}
         </div>
     }

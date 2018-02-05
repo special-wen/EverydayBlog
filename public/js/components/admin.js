@@ -45,8 +45,9 @@ export default class Detail extends React.Component {
         this.props.allUserList();
     }
     render() {
-        const {onDetial,userList,onDelete,onChangeType} = this.props;
+        const {onDetial,userList,onDelete,onChangeType,onClickBackHome} = this.props;
         return <div>
+            <button onClick={onClickBackHome}>返回个人主页</button>
             <p className="check">**普通用户点击<button>+</button>可升级为管理员,管理员点击<button>-</button>可成为普通用户**</p>
             <table id="table">
                 <tbody>
@@ -71,6 +72,7 @@ export default class Detail extends React.Component {
 }
 Detail.propTypes = {
     onDetial: PropTypes.func.isRequired,
+    onClickBackHome: PropTypes.func.isRequired,
     userList: PropTypes.arrayOf(PropTypes.shape({
         stu_id: PropTypes.number.isRequired,
         stu_name: PropTypes.string.isRequired,

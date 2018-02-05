@@ -26,12 +26,13 @@ const mapDispatchToProps = (dispatch) => ({
         const newInfo = {
             name:inputArray[0].value,
             password:inputArray[1].value,
-            realName:inputArray[2].value,
-            major:inputArray[3].value,
-            sex:inputArray[4].value,
-            git:inputArray[5].value,
-            blog:inputArray[6].value,
-            id: inputArray[7].id
+            realName:inputArray[4].value,
+            major:inputArray[5].value,
+            sex:inputArray[6].value,
+            git:inputArray[7].value,
+            blog:inputArray[8].value,
+            id: inputArray[9].id,
+            headPath: document.getElementById('image').src
         };
         if(newInfo.name === '' || newInfo.password === ''){
             alert("用户名或密码不能为空");
@@ -127,8 +128,13 @@ const mapDispatchToProps = (dispatch) => ({
             dispatch({type:"SEX_CHANGE",data:newInfo});
         }
     },
-    onSavePathClick: () => {
-        console.log("待定！！！,,,学习文件上传部分后完成");
+    onSavePathClick: (e) => {
+        console.log(e.target.files[0]);
+        if(!e.target.files || !e.target.files[0]){
+            alert('已使用默认图像');
+        }else{
+            document.getElementById('image').src = '../../images/' + e.target.files[0].name;
+        }
     }
 });
 const signUpLog = connect(mapStateToProps, mapDispatchToProps)(setting);

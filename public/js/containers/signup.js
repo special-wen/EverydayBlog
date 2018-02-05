@@ -14,11 +14,12 @@ const mapDispatchToProps = (dispatch) => ({
         const signUpInfo = {
             name:inputArray[0].value,
             password:inputArray[1].value,
-            realName:inputArray[2].value,
-            major:inputArray[3].value,
-            sex:inputArray[4].value,
-            git:inputArray[5].value,
-            blog:inputArray[6].value
+            realName:inputArray[4].value,
+            major:inputArray[5].value,
+            sex:inputArray[6].value,
+            git:inputArray[7].value,
+            blog:inputArray[8].value,
+            headPath: document.getElementById('image').src
         };
         console.log(signUpInfo.sex);
         if(signUpInfo.name === '' || signUpInfo.password === ''){
@@ -27,8 +28,21 @@ const mapDispatchToProps = (dispatch) => ({
             dispatch(signUp(signUpInfo));
         }
     },
-    onSavePathClick: () => {
-        console.log("待定！！！,,,学习文件上传部分后完成");
+    onSavePathClick: (e) => {
+        console.log(e.target.files[0]);
+        if(!e.target.files || !e.target.files[0]){
+            alert('已使用默认图像');
+        }else{
+            //读取本地文件，以gbk编码方式输出
+            // const reader = new FileReader();
+            // reader.onload = function(e){
+            //     document.getElementById('image').src = e.target.result;
+            //     console.log(decodeURIComponent(e.target.result));
+            //     //image = evt.target.result;
+            // };
+            // reader.readAsDataURL(e.target.files[0]);
+            document.getElementById('image').src = '../../images/' + e.target.files[0].name;
+        }
     }
 });
 const signUpLog = connect(mapStateToProps, mapDispatchToProps)(signup);

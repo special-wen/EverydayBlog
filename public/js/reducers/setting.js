@@ -2,7 +2,7 @@
  * Created by ubuntu on 18-1-29.
  */
 //const sate = {};
-export default (state ={oldInfo:{id: '',username:'',sex: '女',realName:'',github:'',blog:'',major_class:'',password:'',headPath:''}}, action) => {
+export default (state ={oldInfo:{id: '',username:'',sex: '女',realName:'',github:'',blog:'',major_class:'',password:'',headPath:'../../images/0007020099634317_b.png'}}, action) => {
     switch(action.type){
         case 'GET_OLD_INFO':
         case 'USERNAME_CHANGE'://用户名改变

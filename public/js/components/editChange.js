@@ -26,9 +26,9 @@ export default class EditChange extends React.Component {
             </div>
             <div className="articlelist">
                 <p>我的文章</p>
-                <ul>
+                <ul id="userHeaderList">
                     {list.map((val)=>
-                        <Itemlist key={val.id} getInfo={getInfo}  content={val.text} id={val.id} value={val.title}/>
+                        <Itemlist key={val.ess_id} getInfo={getInfo}  content={val.text} id={val.ess_id} value={val.title}/>
                     )}
                 </ul>
             </div>
@@ -63,7 +63,7 @@ EditChange.propTypes = {
     text: PropTypes.string.isRequired,
     //标题列表的展现
     list: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.number.isRequired,
+        ess_id: PropTypes.number.isRequired,
         title: PropTypes.string.isRequired,
         text: PropTypes.string.isRequired
     }).isRequired).isRequired,
