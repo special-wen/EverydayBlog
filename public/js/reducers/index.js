@@ -10,5 +10,5 @@ export default combineReducers({
     edit,
     editList,
     setting,
-    userInfo
+    userInfo,
 });

@@ -46,7 +46,7 @@ export default class Header extends React.Component{
         const {userInfo,myHome,setting,logOut,onSignUp,onSignIn} = this.props;
         return <div>
             {userInfo.map((val)=>
-                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} onSignUp={onSignUp} onSignIn={onSignIn} otherHome={otherHome} user_name={val.user_name} head_path={val.headPath}/>
+                <UserInfo key = {val.user_id} myHome={myHome} setting={setting} logOut={logOut} onSignUp={onSignUp} onSignIn={onSignIn} user_name={val.user_name} head_path={val.headPath}/>
             )}
         </div>
     }

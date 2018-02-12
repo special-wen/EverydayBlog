@@ -60,15 +60,12 @@ router.get('/homeList',(req,res)=>{
 
 });
 
-router.post('/essayList',(req,res)=>{
-    const ess_id = req.body.id;
-    db.query(editSQL.essList,ess_id,(err,result)=>{
-        if (err){
-            console.log("查询失败");
-        }else {
-            console.log(result);
-            res.json(result);
-        }
-    })
-})
+// router.post('/essayList',(req,res)=>{
+//     const ess_id = req.body.id;
+//     console.log(ess_id);
+//     let aaa= {};
+//     aaa.essId = ess_id;
+//     req.session.essayInfo = aaa;
+//     console.log(req.session.essayInfo);
+// })
 module.exports = router;

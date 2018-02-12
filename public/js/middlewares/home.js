@@ -11,9 +11,8 @@ export default store=>next=>action=>{
                 if (err){
                     console.log(err);
                 }
-                 alert(res.body);
+                alert(res.body);
                 next({type:"ALL_LIST",data:res.body});
-
             })
     }
     if (action.type === "ESS_DETIALS"){
@@ -23,7 +22,7 @@ export default store=>next=>action=>{
                 if (err){
                     console.log(err);
                 }
-                next({type:"ESSAY_LIST",data:res.body});
+                // next({type:"ESSAY_LIST",data:res.body});
                 window.location.href = '/essay'
             })
     }
