@@ -9,9 +9,6 @@ let db = require('../dbs/connection');
 let editSQL = require('../dbs/editSQL');
 let userSQL = require('../dbs/signSQL');
 router.get('/homeList',(req,res)=>{
-    // const user_id = req.session.signInInfo.userId;
-    // const user_name = req.session.signInInfo.username;
-    // console.log(user_id);
     db.query(editSQL.getAllEssay,(err,result)=>{
         if(err){
             console.log("我在这里查询失败:"+err);

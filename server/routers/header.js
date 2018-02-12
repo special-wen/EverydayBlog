@@ -26,7 +26,6 @@ router.get('/userInfo',(req,res)=>{
                 res.json(user);
             }
 
-
         })
     }
 

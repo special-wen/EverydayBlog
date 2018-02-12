@@ -4,18 +4,19 @@
 
 import {connect} from 'react-redux';
 import Essay from '../components/essay';
-
+import {ess} from "../action/index";
 const mapStateToProps = (state)=>{
     return{
-        essayInfo:state.essayInfo.aList,
+        essayInfo:state.editList.aList,
     };
 };
 
-const mapDispatchToProps = (dispatch=>{
+const mapDispatchToProps = (dispatch) =>({
     allEssayInfo:()=>{
-        const ess_id = localStorage.getItem("ess_id");
-        dispatch({type:'ALL_ESSAY_INFO',id:ess_id})
-    };
+        const id = localStorage.getItem("ess_id");
+        console.log(id);
+        dispatch({type:"ALL_ESSAY_INFO",id:id});
+    }
 });
 
 export default connect(mapStateToProps,mapDispatchToProps)(Essay);

@@ -6,6 +6,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function EssayInfo(props) {
+    console.log(props);
     if (props.head == null){
         return <div>
             <ul>
@@ -44,10 +45,10 @@ export default class Essay extends React.Component{
 }
 Essay.propTypes={
     essayInfo:PropTypes.arrayOf(PropTypes.shape({
-        ess_id:PropTypes.number.isRequired,
+        ess_id:PropTypes.string.isRequired,
         name:PropTypes.string.isRequired,
         title:PropTypes.string.isRequired,
         text:PropTypes.string.isRequired,
-        date:PropTypes.string.isRequired
+        // date:PropTypes.string.isRequired
     }).isRequired).isRequired,
 };

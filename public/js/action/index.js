@@ -62,3 +62,4 @@ export const FixInfo = (newInfo) => ({
     type:'UPDATE_INFO',
     newInfo
 });
+
