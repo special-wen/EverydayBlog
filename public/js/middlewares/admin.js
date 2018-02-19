@@ -21,7 +21,7 @@ export default store=>next=>action=> {
         window.location.href = '/detail';
     }
     if(action.type === 'PERSON_HOME'){
-        window.location.href = '/home';
+        window.location.href = '/myHome';
     }
     if(action.type === 'USER_DELETE'){
         request.post('/deleteList')

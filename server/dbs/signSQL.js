@@ -15,7 +15,6 @@ const signSQL = {
     userInfo: 'select * from user where user_id=?',
     stuInfo: 'select * from student where user_id=?',
     findById:'select * from user where user_id=?'
-
 };
 
 module.exports = signSQL;

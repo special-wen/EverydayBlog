@@ -1,7 +1,3 @@
-/**
- * Created by zxw on 18-1-30.
- */
-
 const express = require('express');
 const router = express.Router();
 
@@ -9,6 +5,9 @@ let db = require('../dbs/connection');
 let editSQL = require('../dbs/editSQL');
 let userSQL = require('../dbs/signSQL');
 router.get('/homeList',(req,res)=>{
+    // const user_id = req.session.signInInfo.userId;
+    // const user_name = req.session.signInInfo.username;
+    // console.log(user_id);
     db.query(editSQL.getAllEssay,(err,result)=>{
         if(err){
             console.log("我在这里查询失败:"+err);
@@ -57,12 +56,15 @@ router.get('/homeList',(req,res)=>{
 
 });
 
-// router.post('/essayList',(req,res)=>{
-//     const ess_id = req.body.id;
-//     console.log(ess_id);
-//     let aaa= {};
-//     aaa.essId = ess_id;
-//     req.session.essayInfo = aaa;
-//     console.log(req.session.essayInfo);
-// })
+router.post('/essayList',(req,res)=>{
+    const ess_id = req.body.id;
+    db.query(editSQL.essList,ess_id,(err,result)=>{
+        if (err){
+            console.log("查询失败");
+        }else {
+            console.log(result);
+            res.json(result);
+        }
+    })
+});
 module.exports = router;

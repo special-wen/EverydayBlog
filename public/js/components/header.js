@@ -1,7 +1,3 @@
-/**
- * Created by zxw on 18-2-03.
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 function UserInfo(props) {
@@ -58,8 +54,8 @@ Header.propTypes={
     logOut:PropTypes.func.isRequired,
     setting:PropTypes.func.isRequired,
     myHome:PropTypes.func.isRequired,
-    // userInfo:PropTypes.arrayOf(PropTypes.shape({
-    //     user_id:PropTypes.number.isRequired,
-    //     user_name:PropTypes.string.isRequired
-    // }).isRequired).isRequired
+    userInfo:PropTypes.arrayOf(PropTypes.shape({
+        user_id:PropTypes.number.isRequired,
+        user_name:PropTypes.string.isRequired
+    }).isRequired).isRequired
 };

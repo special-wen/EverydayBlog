@@ -7,6 +7,7 @@ const express = require('express');
 const router = express.Router();
 let db = require('../dbs/connection');
 let userSQL = require('../dbs/signSQL');
+
 router.get('/userInfo',(req,res)=>{
     if (req.session.signInInfo == null){
         let user = [];
@@ -25,6 +26,7 @@ router.get('/userInfo',(req,res)=>{
                 user.push({user_id:id,user_name:name,headPath:headPath});
                 res.json(user);
             }
+
 
         })
     }

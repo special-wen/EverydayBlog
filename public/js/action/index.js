@@ -6,9 +6,13 @@ export const sayHello = (hello) => ({
     type: 'GET_HELLO',
     hello
 });
-//展示所有的列表
+//展示登陆的用户文章列表
 export const editList = () => ({
     type: 'ALL_LIST'
+});
+//显示10条用户文章列表（essey表中前１０条，若不满十条则全部显示）
+export const TenList = () => ({
+    type: 'TEN_LIST'
 });
 //点击使markdown中有对应的信息，返回check以便删除信息,为id的值
 export const showInfo = (showInfo) => ({
@@ -62,4 +66,3 @@ export const FixInfo = (newInfo) => ({
     type:'UPDATE_INFO',
     newInfo
 });
-

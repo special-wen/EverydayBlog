@@ -14,10 +14,10 @@ export default store => next => action => {
                 }else{//res.redirect()不可实现页面跳转，必须在前端实现跳转
                     if(res.text === '{"states":"SUCCESS","type":"0"}'){
                         alert("登录成功");
-                        window.location.href = '/home';
+                        window.location.href = '/myHome';
                     }else if(res.text === '{"states":"SUCCESS","type":"1"}'){
                         alert("管理员登录成功");
-                        window.location.href = '/home';
+                        window.location.href = '/admin';
                     }else{
                         alert("用户名或密码错误");
                     }

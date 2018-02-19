@@ -1,5 +1,5 @@
 /**
- * Created by zxw on 18-2-11.
+ * Created by lmy on 18-2-12.
  */
 import request from 'superagent';
 
@@ -8,10 +8,10 @@ export default store=>next=>action=>{
         request.post('/essayInfo')
             .send(action)
             .end((err,res)=>{
-            if (err){
-                console.log(err);
-            }
-            next({type:"ALL_ESSAY",data:res.body});
+                if (err){
+                    console.log(err);
+                }
+                next({type:"ALL_ESSAY",data:res.body});
             })
     }else
         next(action);

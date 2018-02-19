@@ -1,7 +1,6 @@
 /**
  * Created by zxw on 18-1-30.
  */
-
 import request from 'superagent';
 
 export default store=>next=>action=>{
@@ -11,7 +10,7 @@ export default store=>next=>action=>{
                 if (err){
                     console.log(err);
                 }
-                alert(res.body);
+                console.log(res.body);
                 next({type:"ALL_LIST",data:res.body});
             })
     }

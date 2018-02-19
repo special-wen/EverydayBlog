@@ -15,7 +15,7 @@ export default store=>next=>action=>{
             })
     }
     if (action.type === 'MY_HOME'){
-        window.location.href = '/myhome';
+        window.location.href = '/myHome';
     }
     if (action.type === 'CHANGE_USER_INFO'){
         window.location.href = '/setting';

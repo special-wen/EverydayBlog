@@ -1,7 +1,6 @@
 /**
- * Created by zxw on 18-2-11.
+ * Created by lmy on 18-2-12.
  */
-
 import {connect} from 'react-redux';
 import Essay from '../components/essay';
 import {ess} from "../action/index";
