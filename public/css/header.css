@@ -1,0 +1,29 @@
+#header{
+    background-color: darkgray;
+    text-align: right;
+    display: flex;
+}
+#logo{
+    flex: 1;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+#choose{
+    flex: 1;
+    line-height: 60px;
+    display: inline-block;
+    font-size: 16px;
+}
+ul{
+    line-height: 60px;
+    flex: 1;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 5px 8px;
+}
+ul li img{
+    border-radius: 50%;
+}

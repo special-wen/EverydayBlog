@@ -46,24 +46,26 @@ const mapDispatchToProps = (dispatch) => ({
             const newInfo = {
                 name:e.target.value,
                 password:inputArray[1].value,
-                realName:inputArray[2].value,
-                major:inputArray[3].value,
-                sex:inputArray[4].value,
-                git:inputArray[5].value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                realName:inputArray[4].value,
+                major:inputArray[5].value,
+                sex:inputArray[6].value,
+                git:inputArray[7].value,
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"USERNAME_CHANGE",data:newInfo});
         }else if(e.target.id === 'password'){
             const newInfo = {
                 name:inputArray[0].value,
                 password:e.target.value,
-                realName:inputArray[2].value,
-                major:inputArray[3].value,
-                sex:inputArray[4].value,//男为false,女为true
-                git:inputArray[5].value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                realName:inputArray[4].value,
+                major:inputArray[5].value,
+                sex:inputArray[6].value,
+                git:inputArray[7].value,
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"PASSWORD_CHANGE",data:newInfo});
         }else if(e.target.id === 'realName'){
@@ -71,59 +73,64 @@ const mapDispatchToProps = (dispatch) => ({
                 name:inputArray[0].value,
                 password:inputArray[1].value,
                 realName:e.target.value,
-                major:inputArray[3].value,
-                sex:inputArray[4].value,
-                git:inputArray[5].value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                major:inputArray[5].value,
+                sex:inputArray[6].value,
+                git:inputArray[7].value,
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"REALNAME_CHANGE",data:newInfo});
         } else if(e.target.id === 'major'){
             const newInfo = {
                 name:inputArray[0].value,
                 password:inputArray[1].value,
-                realName:inputArray[2].value,
+                realName:inputArray[4].value,
                 major:e.target.value,
-                sex:inputArray[4].value,
-                git:inputArray[5].value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                sex:inputArray[6].value,
+                git:inputArray[7].value,
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"MAJORCLASS_CHANGE",data:newInfo});
         } else if(e.target.id === 'gitAddress'){
             const newInfo = {
                 name:inputArray[0].value,
                 password:inputArray[1].value,
-                realName:inputArray[2].value,
-                major:inputArray[3].value,
-                sex:inputArray[4].value,
+                realName:inputArray[4].value,
+                major:inputArray[5].value,
+                sex:inputArray[6].value,
                 git:e.target.value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"GITHUB_CHANGE",data:newInfo});
         } else if(e.target.id === 'blogAddress'){
             const newInfo = {
                 name:inputArray[0].value,
                 password:inputArray[1].value,
-                realName:inputArray[2].value,
-                major:inputArray[3].value,
-                sex:inputArray[4].value,//男为false,女为true
-                git:inputArray[5].value,
+                realName:inputArray[4].value,
+                major:inputArray[5].value,
+                sex:inputArray[6].value,
+                git:inputArray[7].value,
                 blog:e.target.value,
-                id: inputArray[7].id
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"BLOG_CHANGE",data:newInfo});
         } else if(e.target.id === 'sex'){
             const newInfo = {
                 name:inputArray[0].value,
                 password:inputArray[1].value,
-                realName:inputArray[2].value,
-                major:inputArray[3].value,
+                realName:inputArray[4].value,
+                major:inputArray[5].value,
                 sex:e.target.value,
-                git:inputArray[5].value,
-                blog:inputArray[6].value,
-                id: inputArray[7].id
+                git:inputArray[7].value,
+                blog:inputArray[8].value,
+                id: inputArray[9].id,
+                headPath: document.getElementById('image').src
             };
             dispatch({type:"SEX_CHANGE",data:newInfo});
         }

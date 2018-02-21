@@ -22,6 +22,18 @@ const mapDispatchToProps = (dispatch)=>({
         console.log('修改个人信息');
         dispatch({type:'CHANGE_USER_INFO'})
     },
+    onWritting:()=>{
+        console.log('编写文章');
+        dispatch({type:'EDIT_ESSAY'})
+    },
+    onAdminList:()=>{
+        console.log('管理员列表');
+        dispatch({type:'ADMIN_PAGE'})
+    },
+    onIndex:()=>{
+        console.log('回到根目录');
+        dispatch({type:'BACK_INDEX'})
+    },
     logOut:()=>{
         console.log('退出登录');
         dispatch({type:'LOGOUT'})
@@ -32,6 +44,6 @@ const mapDispatchToProps = (dispatch)=>({
     onSignIn: () => {
         dispatch({type:'GET_IN'});//注册跳转页面的请求
     }
-})
+});
 
 export default connect(mapStateToProps,mapDispatchToProps)(Header);

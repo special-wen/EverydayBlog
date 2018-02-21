@@ -5,6 +5,7 @@ const express = require('express');
 
 const router = express.Router();
 
+const moment = require('moment');
 let db = require('../dbs/connection');
 let signSQL = require('../dbs/signSQL');
 
@@ -20,13 +21,24 @@ router.get('/userList', (req, res) => {//初始化用户列表
             let boss = [];
             resultStu.map((stu) => {
                 db.query(signSQL.userInfo,stu.user_id, (err, resultUser) => {
+                    let count = 0;
                     resultUser.map((user) => {
                         //返回的数组对象中包括type,用户类型
                         stu.type = user.type;
-                        boss.push(stu);
-                        if(boss.length === resultStu.length){
-                            res.json(boss);
-                        }
+                        db.query(signSQL.findCount,stu.user_id,(err, resultEssay) => {
+                           if(err){
+                               console.log(err);
+                           }else{
+                               stu.count = resultEssay.length;
+                              if(resultEssay.length !== 0){
+                                  stu.date =　moment(resultEssay[resultEssay.length - 1].date).format('YYYY-MM-DD HH:mm:ss');
+                              }
+                               boss.push(stu);
+                               if(boss.length === resultStu.length){
+                                   res.json(boss);
+                               }
+                           }
+                        });
                    });
                 });
             });

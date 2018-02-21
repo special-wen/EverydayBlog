@@ -5,7 +5,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default class Login extends React.Component {
-
     render() {
         const {onClickSignIn} = this.props;
         return (

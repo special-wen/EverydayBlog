@@ -1,7 +1,7 @@
 import {render} from 'react-dom';
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
-import {Router, Route, browserHistory} from 'react-router';
+import {Router, Route, browserHistory,IndexRoute} from 'react-router';
 import React from 'react';
 import reducer from './reducers/index';
 
@@ -42,14 +42,15 @@ const store = createMiddlewareStore(reducer);
 
 render(<Provider store={store}>
     <Router history={browserHistory}>
-        <Route path='/' components={Home}/>
-        <Route path='/edit' component={Edit}/>
-        <Route path='/signup' component={SignUp}/>
-        <Route path='/signin' component={SignIn}/>
-        <Route path='/admin' component={Admin}/>
-        <Route path='/setting' component={Setting}/>
-        <Route path='/myHome' component={myHome}/>
-        <Route path='/header' components={Header}/>
-        <Route path='/essay' components={Essay}/>
+        <Route path="/" component={Header}>
+            <IndexRoute component={Home}/>
+            <Route path='/edit' component={Edit}/>
+            <Route path='/signup' component={SignUp}/>
+            <Route path='/signin' component={SignIn}/>
+            <Route path='/admin' component={Admin}/>
+            <Route path='/setting' component={Setting}/>
+            <Route path='/myHome' component={myHome}/>
+            <Route path='/essay' components={Essay}/>
+        </Route>
     </Router>
 </Provider>, document.getElementById("content"));

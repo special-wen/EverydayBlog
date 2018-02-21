@@ -18,10 +18,6 @@ const mapDispatchToProps = (dispatch) => ({
         console.log('跳转到别人可见的详情页');
         dispatch({type:'USER_DETAIL'})
     },
-    onClickBackHome: () => {
-        console.log('跳转到个人主页，仅自己可见');
-        dispatch({type:'PERSON_HOME'})
-    },
     onDelete: (e) => {
         e.stopPropagation();
         const id = e.target.parentNode.parentNode.id;

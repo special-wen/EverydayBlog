@@ -1,12 +1,9 @@
-/**
- * Created by lmy on 18-2-12.
- */
 import {connect} from 'react-redux';
 import Essay from '../components/essay';
 import {ess} from "../action/index";
 const mapStateToProps = (state)=>{
     return{
-        essayInfo:state.editList.aList,
+        essayInfo:state.editList.aList
     };
 };
 

@@ -10,7 +10,6 @@ export default store=>next=>action=>{
                 if (err){
                     console.log(err);
                 }
-                console.log(res.body);
                 next({type:"ALL_LIST",data:res.body});
             })
     }

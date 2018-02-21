@@ -38,6 +38,7 @@
     "express-session": "^1.15.6",
     "img-loader": "^2.0.0",
     "marked": "^0.3.6",
+    "moment": "^2.20.1",
     "mongodb": "^2.2.25",
     "mongoose": "^4.9.5",
     "mysql": "^2.14.1",

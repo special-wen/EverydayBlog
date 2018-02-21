@@ -1,28 +1,26 @@
-/**
- * Created by lmy on 18-2-12.
- */
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import marked from 'marked';
 function EssayInfo(props) {
+    console.log("props");
     console.log(props);
     if (props.head == null) {
         return <div>
             <ul>
                 <li>{props.name}</li>
                 <li><img src="../../images/photo.jpeg" alt="" width={30} height={30}/></li>
-                <li>{props.title}</li>
-                <li>{props.text}</li>
-                <li>{props.date}</li>
+                {/* <li>{props.title}</li>
+                 <li>{props.text}</li>
+                 <li>{props.date}</li>*/}
                 <div className="show">
                     <div className="showTitle">
                         <div className='markdown-rendered-contect'
-                             dangerouslySetInnerHTML={{__html: props.title}}/>
+                             dangerouslySetInnerHTML={{__html: marked(props.title.toString())}}/>
                     </div>
 
                     <div className="showText">
                         <div className='markdown-rendered-contect'
-                             dangerouslySetInnerHTML={{__html: props.text}}/>
+                             dangerouslySetInnerHTML={{__html: marked(props.text.toString())}}/>
                     </div>
 
                 </div>
@@ -33,18 +31,18 @@ function EssayInfo(props) {
             <ul>
                 <li>{props.name}</li>
                 <li><img src={props.head} alt="" width={30} height={30}/></li>
-                <li>{props.title}</li>
-                <li>{props.text}</li>
-                <li>{props.date}</li>
+                {/* <li>{props.title}</li>
+                 <li>{props.text}</li>
+                 <li>{props.date}</li>*/}
                 <div className="show">
                     <div className="showTitle">
                         <div className='markdown-rendered-contect'
-                             dangerouslySetInnerHTML={{__html: props.title}}/>
+                             dangerouslySetInnerHTML={{__html: marked(props.title.toString())}}/>
                     </div>
 
                     <div className="showText">
                         <div className='markdown-rendered-contect'
-                             dangerouslySetInnerHTML={{__html: props.text}}/>
+                             dangerouslySetInnerHTML={{__html: marked(props.text.toString())}}/>
                     </div>
 
                 </div>
@@ -77,4 +75,3 @@ Essay.propTypes = {
         // date:PropTypes.string.isRequired
     }).isRequired).isRequired,
 };
-
