@@ -19,11 +19,10 @@ router.get('/homeList',(req,res)=>{
                     resUser.map((user)=>{
                         stu.name = user.name;
                         stu.head = user.head_path;
+                        stu.user_id=user.user_id;
                         aaa.push(stu);
                         if (aaa.length === result.length){
-                            // aaa.session_name = user_name;
-                            // aaa.session_id = user_id;
-                            console.log(aaa);
+                            // console.log(aaa);
                             res.json(aaa);
                         }
                     });
@@ -40,10 +39,9 @@ router.get('/homeList',(req,res)=>{
                         resUser.map((user)=>{
                             stu.name = user.name;
                             stu.head = user.head_path;
+                            stu.user_id=user.user_id;
                             aaa.push(stu);
                             if (aaa.length === result.length){
-                                // aaa.push(user_id);
-                                // aaa.push(user_name);
                                 res.json(aaa)
                             }
                         });

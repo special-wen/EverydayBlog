@@ -1,29 +1,35 @@
+/**
+ * Created by zxw on 18-2-02
+ */
+
 import {connect} from 'react-redux';
 import Home from '../components/home';
 
-const mapStateToProps = (state)=>{
-    return{
-        essayList:state.editList.aList,
+const mapStateToProps = (state)=> {
+    return {
+        essayList: state.editList.aList,
     };
 };
 
 const mapDispatchToProps = (dispatch)=>({
-    allEssayList:()=>{
-        dispatch({type:'ALL_ESSAY_LIST'})
+    allEssayList: ()=> {
+        dispatch({type: 'ALL_ESSAY_LIST'})
     },
-    onDetials:(e)=>{
+    onDetials: (e)=> {
         e.stopPropagation();
         const ess_id = e.target.parentNode.id;
-        // alert(ess_id);
-        localStorage.setItem("ess_id",ess_id);
-        let aaa = localStorage.getItem("ess_id");
-        alert(ess_id + aaa);
-        dispatch({type:'ESS_DETIALS',id:ess_id})
+        localStorage.setItem("ess_id", ess_id);
+        dispatch({type: 'ESS_DETIALS', id: ess_id})
     },
-    otherHome:(e)=>{
-        console.log("别人的主页：");
-
+    otherHome: (e)=> {
+        //跳转到别人可见的详情页
+        const id = e.target.parentNode.parentNode.id;
+        console.log(id);
+        e.stopPropagation();
+        localStorage.setItem("user_id",id);
+        dispatch({type: 'OTHER_DETAIL', id: id});
     }
 });
 
-export default connect(mapStateToProps,mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
+

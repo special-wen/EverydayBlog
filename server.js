@@ -16,10 +16,10 @@ const signUp = require('./server/routers/signup');
 const signIn = require('./server/routers/login');
 const Admin = require('./server/routers/admin');
 const Setting = require('./server/routers/setting');
-// const myHome = require('./server/routers/myHome');
 const Home = require('./server/routers/home');
 const header = require('./server/routers/header');
 const Essay = require('./server/routers/essay');
+const Detail = require('./server/routers/detail');
 
 
 const db_config = {
@@ -58,16 +58,15 @@ app.use('/',signUp);
 app.use('/',signIn);
 app.use('/',Admin);
 app.use('/',Setting);
-// app.use('/',myHome);
 app.use('/',Home);
 app.use('/',header);
 app.use('/',Essay);
+app.use('/',Detail);
 
 app.get("*", function (req, res) {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
-app.locals.moment = require('moment');
 app.listen(3000, () => {
     console.log('server start');
 });

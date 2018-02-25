@@ -14,9 +14,10 @@ import middleSignIn from './middlewares/login';
 import middleAdmin from './middlewares/admin';
 import middleSetting from './middlewares/setting';
 import middleEssay from './middlewares/essay';
-// import middleMyHome from './middlewares/myHome';
+import middleMyHome from './middlewares/myHome';
 import middleHome from './middlewares/home';
 import middleHeader from './middlewares/header';
+import middleDetail from './middlewares/detail';
 
 
 //hello的demo,可将容器组件再次封装（可使用ownProps属性传递参数），将组件页面引入显示
@@ -33,10 +34,11 @@ import myHome from './containers/myHome';
 import Home from './containers/home';
 import Header from './containers/header';
 import Essay from './containers/essay';
+import Detail from "./containers/detail";
 
 
-const createMiddlewareStore = applyMiddleware(middleHello, middleEdit, middleDeleteEdit,
-    middleIndex, middleSignUp, middleSignIn, middleAdmin, middleSetting, middleHome, middleHeader, middleEssay)(createStore);
+const createMiddlewareStore = applyMiddleware(middleHello, middleEdit, middleDeleteEdit, middleDetail,
+    middleIndex, middleSignUp, middleSignIn, middleAdmin, middleSetting, middleHome, middleHeader, middleEssay, middleMyHome)(createStore);
 
 const store = createMiddlewareStore(reducer);
 
@@ -51,6 +53,7 @@ render(<Provider store={store}>
             <Route path='/setting' component={Setting}/>
             <Route path='/myHome' component={myHome}/>
             <Route path='/essay' components={Essay}/>
+            <Route path='/detail' components={Detail}/>
         </Route>
     </Router>
 </Provider>, document.getElementById("content"));

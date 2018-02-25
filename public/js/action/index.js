@@ -10,9 +10,9 @@ export const sayHello = (hello) => ({
 export const editList = () => ({
     type: 'ALL_LIST'
 });
-//显示10条用户文章列表（essey表中前１０条，若不满十条则全部显示）
-export const TenList = () => ({
-    type: 'TEN_LIST'
+//显示被访问的用户文章列表
+export const otherList = () => ({
+    type: 'OTHER_LIST'
 });
 //点击使markdown中有对应的信息，返回check以便删除信息,为id的值
 export const showInfo = (showInfo) => ({

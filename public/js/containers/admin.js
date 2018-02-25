@@ -1,6 +1,3 @@
-/**
- * Created by ubuntu on 18-1-26.
- */
 import {connect} from 'react-redux';
 import Admin from '../components/admin';
 
@@ -14,9 +11,14 @@ const mapDispatchToProps = (dispatch) => ({
     allUserList: () => {
         dispatch({type:'ALL_USER_LIST'})
     },
-    onDetial: () => {
-        console.log('跳转到别人可见的详情页');
-        dispatch({type:'USER_DETAIL'})
+    onDetial: (e) => {
+        // console.log('跳转到别人可见的详情页');
+        const id = e.target.parentNode.id;
+        // console.log(id);
+        e.stopPropagation();
+        const user_id = e.target.parentNode.id;
+        localStorage.setItem("user_id",user_id);
+        dispatch({type:'OTHER_DETAIL',id:id});
     },
     onDelete: (e) => {
         e.stopPropagation();

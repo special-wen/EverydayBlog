@@ -32,7 +32,6 @@ export default store => next => action => {
                         alert("用户名不可重复，请重新输入！");
                     }else{
                         alert("修改信息成功！！！");
-                        window.location.href = '/setting';
                     }
                 }
             });

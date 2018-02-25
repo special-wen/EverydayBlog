@@ -8,7 +8,7 @@ import { editList } from '../action';
 const mapStateToProps = (state) => {
     return {
         check: state.edit.check,
-        list: state.editList.aList
+        mylist: state.editList.aList
     }
 };
 
@@ -16,15 +16,15 @@ function mapDispatchToProps(dispatch){
     return{
         allList: () =>{
             dispatch(editList());
-        },//项目的列表
-        getInfo: (e) => {
-            const check=e.target.parentNode.id;
-            const text=e.target.parentNode.title;
-            const title=e.target.innerText;
-            // document.getElementsByClassName("editText")[0].value = text;
-            // document.getElementsByClassName("editTitle")[0].value = title;
-            // dispatch(showInfo({check:check,text:text,title:title}));
-        },//点击列表之后的信息
+        },
+        myonDetials:(e)=>{
+            e.stopPropagation();
+            const ess_id = e.target.parentNode.id;
+            localStorage.setItem("ess_id",ess_id);
+            let aaa = localStorage.getItem("ess_id");
+            alert(ess_id + aaa);
+            dispatch({type:'ESS_DETIALS',id:ess_id})
+        }
     }
 
 }

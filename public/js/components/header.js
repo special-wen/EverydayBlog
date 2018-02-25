@@ -38,7 +38,7 @@ export default class Header extends React.Component{
         }else{//管理员
             return <div>
                 <div id = "header">
-                    <div id="logo">Welcome to myProject~~~~~~(blog)</div>
+                    <div id="logo">Welcome to everydayWrite~~~~~~</div>
                     <ul>
                         <li>{userInfo.username}</li>
                         <li><img src={userInfo.headPath} alt="" width={60} height={60}/></li>

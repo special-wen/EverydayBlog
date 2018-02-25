@@ -26,7 +26,7 @@ router.post('/essayInfo',(req,res)=>{
             let name = resUser[0].name;
             let head = resUser[0].head_path;
             essayInfo.push({ess_id:ess_id,title:result[0].title,text:result[0].text,date:result[0].date,user_id:user_id,name:name,head:head});
-            console.log(essayInfo);
+            // console.log(essayInfo);
             res.json(essayInfo);
 
         })

@@ -50,20 +50,20 @@ export default class Detail extends React.Component {
             <p className="check">**普通用户点击<button>+</button>可升级为管理员,管理员点击<button>-</button>可成为普通用户**</p>
             <table id="table">
                 <tbody>
-                    <tr>
-                        <th>姓名</th>
-                        <th>专业班级</th>
-                        <th>性别</th>
-                        <th>github地址</th>
-                        <th>blog地址</th>
-                        <th>最新发布时间</th>
-                        <th>发布文章总数</th>
-                        <th>用户类型</th>
-                        <th>是否移除</th>
-                    </tr>
-                    {userList.map((val)=>
-                        <ItemUserList key={val.stu_id} check={val.stu_id} onDetial={onDetial} onDelete={onDelete} name={val.stu_name} major_class={val.major_class} sex={val.sex} type={val.type} github={val.github} blog={val.blog} time={val.date} count={val.count} onChangeType={onChangeType}/>
-                    )}
+                <tr>
+                    <th>姓名</th>
+                    <th>专业班级</th>
+                    <th>性别</th>
+                    <th>github地址</th>
+                    <th>blog地址</th>
+                    <th>最新发布时间</th>
+                    <th>发布文章总数</th>
+                    <th>用户类型</th>
+                    <th>是否移除</th>
+                </tr>
+                {userList.map((val)=>
+                    <ItemUserList key={val.stu_id} check={val.stu_id} onDetial={onDetial} onDelete={onDelete} name={val.stu_name} major_class={val.major_class} sex={val.sex} type={val.type} github={val.github} blog={val.blog} time={val.date} count={val.count} onChangeType={onChangeType}/>
+                )}
                 </tbody>
             </table>
         </div>

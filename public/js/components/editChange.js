@@ -3,9 +3,9 @@ import '../../css/edit.css';
 import PropTypes from 'prop-types';
 
 function Itemlist(props) {
-    return <li id={props.id} title={props.content} onClick={props.getInfo}>
+    return <div id={props.id} title={props.content} onClick={props.getInfo}>
         <a href="#">{props.value}</a>
-    </li>
+    </div>
 }
 export default class EditChange extends React.Component {
     componentDidMount(){
@@ -15,8 +15,6 @@ export default class EditChange extends React.Component {
         const {check,buttonClick,deleteEdit,handelTitleChange,handelContentChange,title,text,list,getInfo,newEdit} = this.props;
         return <div>
             <div className="Head">
-                <img src="../../images/photo.jpeg" width={60} height={50}/>
-                用户名
                 <button className={check} onClick={buttonClick}>发布</button>
                 <button className={check} onClick={deleteEdit}>删除</button>
                 <button onClick={newEdit}>新建</button>

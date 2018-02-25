@@ -16,6 +16,7 @@ router.get('/editList', (req, res) => {
         if (err) {
             console.log(err);
         }
+
         res.json(result);
     });
 });

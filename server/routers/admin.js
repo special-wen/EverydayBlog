@@ -26,20 +26,20 @@ router.get('/userList', (req, res) => {//初始化用户列表
                         //返回的数组对象中包括type,用户类型
                         stu.type = user.type;
                         db.query(signSQL.findCount,stu.user_id,(err, resultEssay) => {
-                           if(err){
-                               console.log(err);
-                           }else{
-                               stu.count = resultEssay.length;
-                              if(resultEssay.length !== 0){
-                                  stu.date =　moment(resultEssay[resultEssay.length - 1].date).format('YYYY-MM-DD HH:mm:ss');
-                              }
-                               boss.push(stu);
-                               if(boss.length === resultStu.length){
-                                   res.json(boss);
-                               }
-                           }
+                            if(err){
+                                console.log(err);
+                            }else{
+                                stu.count = resultEssay.length;
+                                if(resultEssay.length !== 0){
+                                    stu.date =　moment(resultEssay[resultEssay.length - 1].date).format('YYYY-MM-DD HH:mm:ss');
+                                }
+                                boss.push(stu);
+                                if(boss.length === resultStu.length){
+                                    res.json(boss);
+                                }
+                            }
                         });
-                   });
+                    });
                 });
             });
         });

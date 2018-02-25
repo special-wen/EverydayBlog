@@ -19,7 +19,7 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => ({
     userINFO: () => {
-      dispatch({type:'OLD_INFO'})
+        dispatch({type:'OLD_INFO'})
     },
     onClickFixInfo: () => {
         const inputArray = document.getElementsByTagName("input");
